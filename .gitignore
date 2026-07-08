@@ -1,0 +1,5 @@
+# SimulationCraft output
+*.html
+*.json
+result.txt
+simc_cache.dat
