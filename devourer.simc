@@ -117,6 +117,7 @@ actions.voidscarred_melee+=/reapers_toll,if=soul_fragments<=8
 actions.voidscarred_melee+=/vengeful_retreat,if=buff.voidstep.up
 actions.voidscarred_melee+=/pierce_the_veil,if=talent.eradicate&buff.metamorphosis.up
 actions.voidscarred_melee+=/call_action_list,name=reaps,if=action.reap.souls_consumed>=4
+actions.voidscarred_melee+=/call_action_list,name=reaps,if=fight_remains<=6&action.reap.souls_consumed>=1
 actions.voidscarred_melee+=/pierce_the_veil
 actions.voidscarred_melee+=/predators_wake
 actions.voidscarred_melee+=/void_ray,if=!buff.eradicate.up|!buff.moment_of_craving.up|set_bonus.midnight_season_2_4pc
