@@ -1,5 +1,4 @@
 # Devourer Demon Hunter, Midnight 12.1 PTR
-# Default fight is 1 target, 300s, with bloodlust. Edit the options below for other fights.
 
 ptr=1
 desired_targets=1
@@ -68,7 +67,12 @@ actions.annihilator_ranged=shadowmeld,if=talent.doomsayer&!buff.doomsayer.up
 actions.annihilator_ranged+=/metamorphosis,if=buff.eradicate.up|!talent.eradicate|active_enemies=1|talent.voidfall
 actions.annihilator_ranged+=/devour,if=buff.soulburst.up
 actions.annihilator_ranged+=/consume,if=buff.soulburst.up
-actions.annihilator_ranged+=/call_action_list,name=melee_combo,if=talent.devourers_bite
+actions.annihilator_ranged+=/vengeful_retreat,if=talent.devourers_bite&buff.voidstep.up
+actions.annihilator_ranged+=/hungering_slash,if=talent.devourers_bite&active_enemies>1
+actions.annihilator_ranged+=/reapers_toll,if=talent.devourers_bite&(buff.voidsurge_reapers_toll.up|active_enemies>1)
+actions.annihilator_ranged+=/pierce_the_veil,if=talent.devourers_bite
+actions.annihilator_ranged+=/predators_wake,if=talent.devourers_bite
+actions.annihilator_ranged+=/voidblade,if=talent.devourers_bite&buff.metamorphosis.up
 actions.annihilator_ranged+=/voidblade,if=!buff.metamorphosis.up&debuff.devourers_bite.remains<4&active_enemies<4
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=active_enemies=1&buff.voidfall_spending.react>=3
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=active_enemies>1&variable.wont_overcap_cstar&set_bonus.midnight_season_2_4pc&(buff.voidfall_spending.stack>=3&prev_gcd.1.void_ray|buff.voidfall_spending.react>=3)
@@ -93,7 +97,12 @@ actions.voidscarred_ranged+=/consume,if=buff.soulburst.up
 actions.voidscarred_ranged+=/call_action_list,name=reaps,if=action.reap.souls_consumed>=4
 actions.voidscarred_ranged+=/call_action_list,name=reaps,if=fight_remains<=6&action.reap.souls_consumed>=1
 actions.voidscarred_ranged+=/void_ray,if=!buff.eradicate.up|!buff.moment_of_craving.up|set_bonus.midnight_season_2_4pc
-actions.voidscarred_ranged+=/call_action_list,name=melee_combo
+actions.voidscarred_ranged+=/vengeful_retreat,if=buff.voidstep.up
+actions.voidscarred_ranged+=/hungering_slash,if=active_enemies>1
+actions.voidscarred_ranged+=/reapers_toll,if=buff.voidsurge_reapers_toll.up|active_enemies>1
+actions.voidscarred_ranged+=/pierce_the_veil,if=buff.voidsurge_pierce_the_veil.up|talent.duty_eternal&active_enemies=1|talent.devourers_bite|talent.hungering_slash&active_enemies>1
+actions.voidscarred_ranged+=/predators_wake
+actions.voidscarred_ranged+=/voidblade,if=(talent.duty_eternal&active_enemies=1|talent.hungering_slash&active_enemies>1)&!talent.devourers_bite
 actions.voidscarred_ranged+=/soul_immolation,if=active_dot.soul_immolation=0&!buff.metamorphosis.up
 actions.voidscarred_ranged+=/devour
 actions.voidscarred_ranged+=/consume
@@ -119,9 +128,11 @@ actions.voidscarred_melee+=/soul_immolation,if=active_dot.soul_immolation=0&!buf
 actions.voidscarred_melee+=/devour
 actions.voidscarred_melee+=/consume
 
-# helpers
+# variables
 actions.variables=variable,name=wont_overcap_cstar,op=set,value=!buff.metamorphosis.up|((buff.collapsing_star_stacking.stack+action.reap.souls_consumed)<=buff.collapsing_star_stacking.max_stack|!(talent.collapsing_star&(active_enemies>1|apex.1|buff.dark_matter.up|talent.star_fragments)))
 actions.variables+=/variable,name=ray_after_reap,op=set,value=fury+4*action.reap.souls_consumed+10*talent.scythes_embrace>=100
+
+# trinkets, pot, external buffs
 actions.cooldowns=invoke_external_buff,name=power_infusion,if=buff.metamorphosis.up&!buff.power_infusion.up
 actions.cooldowns+=/potion,if=buff.metamorphosis.up|fight_remains<=30
 actions.cooldowns+=/use_item,slot=trinket1,if=buff.metamorphosis.up&(!trinket.2.has_cooldown|trinket.2.cooldown.remains|variable.trinket_priority=1|variable.trinket_2_exclude)&!variable.trinket_1_manual|trinket.1.proc.any_dps.duration>=fight_remains|fight_remains<=trinket.1.buff.any_dps.duration
@@ -130,12 +141,8 @@ actions.cooldowns+=/use_item,use_off_gcd=1,slot=trinket1,if=!variable.trinket_1_
 actions.cooldowns+=/use_item,use_off_gcd=1,slot=trinket2,if=!variable.trinket_2_buffs&!variable.trinket_2_manual&(variable.damage_trinket_priority=2|trinket.1.cooldown.remains|trinket.1.is.spymasters_web|trinket.1.cooldown.duration=0)&gcd.remains>0.1
 actions.cooldowns+=/use_item,slot=trinket1,if=!variable.trinket_1_buffs&!variable.trinket_1_manual&(variable.damage_trinket_priority=1|trinket.2.cooldown.remains|trinket.2.is.spymasters_web|trinket.2.cooldown.duration=0)&!variable.trinket_1_ogcd_cast
 actions.cooldowns+=/use_item,slot=trinket2,if=!variable.trinket_2_buffs&!variable.trinket_2_manual&(variable.damage_trinket_priority=2|trinket.1.cooldown.remains|trinket.1.is.spymasters_web|trinket.1.cooldown.duration=0)&!variable.trinket_2_ogcd_cast
+
+# reaps
 actions.reaps=eradicate
 actions.reaps+=/cull
 actions.reaps+=/reap
-actions.melee_combo=vengeful_retreat,if=buff.voidstep.up
-actions.melee_combo+=/hungering_slash,if=active_enemies>1
-actions.melee_combo+=/reapers_toll,if=buff.voidsurge_reapers_toll.up|active_enemies>1
-actions.melee_combo+=/pierce_the_veil,if=buff.voidsurge_pierce_the_veil.up|talent.duty_eternal&active_enemies=1|talent.devourers_bite|talent.hungering_slash&active_enemies>1
-actions.melee_combo+=/predators_wake
-actions.melee_combo+=/voidblade,if=(talent.duty_eternal&active_enemies=1|talent.hungering_slash&active_enemies>1)&!talent.devourers_bite|talent.devourers_bite&!hero_tree.voidscarred&buff.metamorphosis.up
