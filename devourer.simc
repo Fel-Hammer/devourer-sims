@@ -1,11 +1,10 @@
-# Devourer Demon Hunter SimulationCraft profile (Midnight patch 12.1)
-# The Int/Void Demon Hunter (Devourer hero spec). Gear is the highest legal season-2
-# (Midnight 12.1) set; talents and the action list below are the current maintained build.
-# The talents line below is the single-target loadout. See README.md for the AoE loadout and
-# the current per-scenario high-water marks; the action list auto-selects the rotation for either.
-# ptr=1 selects the 12.1 data set carried by the SimC binary and is required for this profile.
-# target_error=0.05 is the standard comparison fidelity (see README.md for the benchmark scenarios).
+# Devourer Demon Hunter, Midnight 12.1 PTR
+# Default fight is 1 target, 300s, with bloodlust. Edit the options below for other fights.
+
 ptr=1
+desired_targets=1
+max_time=300
+override.bloodlust=1
 target_error=0.05
 
 demonhunter="Devourer"
@@ -23,7 +22,7 @@ food=blooming_feast
 augmentation=void_touched
 temporary_enchant=main_hand:thalassian_phoenix_oil_2/off_hand:thalassian_phoenix_oil_2
 head=gaze_of_the_coiled_watcher,id=271875,ilevel=337,bonus_id=13847/13668,gem_id=240906,enchant_id=7991
-# catalyzed head: Gaze keeps its stats/cantrip, gains set membership; SimC counts sets by id
+# head catalyzed into the tier set
 set_bonus=midnight_season_2_2pc=1
 set_bonus=midnight_season_2_4pc=1
 neck=aqirbane_reliquary,id=268265,bonus_id=13662/13668/13708/13848,gem_id=240983/240906
