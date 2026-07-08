@@ -1,10 +1,6 @@
-# devourer-sims
+Current SimC profile for Devourer Demon Hunter, Midnight 12.1 PTR. `devourer.simc` has the gear, talents, and action list.
 
-Current SimulationCraft profile for the Devourer Demon Hunter, Midnight 12.1. `devourer.simc` has the gear, talents, and action list.
-
-## High-water marks
-
-Best DPS we have for each fight, run on Raidbots (PTR). Beat one and it's the new mark.
+## Current Best
 
 | Fight | DPS | Loadout | Sim |
 |---|---|---|---|
@@ -12,16 +8,16 @@ Best DPS we have for each fight, run on Raidbots (PTR). Beat one and it's the ne
 | 5 target, 60s, no lust | 579,012 | AoE | https://mimiron.raidbots.com/simbot/report/kVWChtcJAj7pNxfZNMQ7UX |
 | 5 target, 300s, lust | 520,885 | AoE | https://mimiron.raidbots.com/simbot/report/kAgwL4PhJDYhUDxtAyBbrU |
 
-`devourer.simc` ships the single-target talents. For the AoE marks, swap the `talents=` line for:
+`devourer.simc` has the single-target talents. For AOE, swap for:
 
 ```
-talents=CgcBAAAAAAAAAAAAAAAAAAAAAAAWMmZmZmZmBmBAAAAAAYZGjBzAAAAAAAAwMmh5BmZmZmZmZGzsNzMjNttAgAGAMzMbzMTz2MbzMDzMA
+CgcBAAAAAAAAAAAAAAAAAAAAAAAWMmZmZmZmBmBAAAAAAYZGjBzAAAAAAAAwMmh5BmZmZmZmZGzsNzMjNttAgAGAMzMbzMTz2MbzMDzMA
 ```
 
 ## Contributing
 
-Open a PR that beats a mark. Most gains come from a different talent loadout, not the action list.
+Open a PR that beats a current best.
 
 Include:
-- The talents hash you ran.
-- DPS for all three fights, current vs yours, at target_error 0.05.
+- The talents hash you ran
+- Raidbots link for all three fight styles, current vs yours, at target_error 0.05
