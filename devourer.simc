@@ -1,6 +1,8 @@
 # Devourer Demon Hunter SimulationCraft profile (Midnight patch 12.1)
 # The Int/Void Demon Hunter (Devourer hero spec). Gear is the highest legal season-2
 # (Midnight 12.1) set; talents and the action list below are the current maintained build.
+# The talents line below is the single-target loadout. See README.md for the AoE loadout and
+# the current per-scenario high-water marks; the action list auto-selects the rotation for either.
 # ptr=1 selects the 12.1 data set carried by the SimC binary and is required for this profile.
 # target_error=0.05 is the standard comparison fidelity (see README.md for the benchmark scenarios).
 ptr=1
