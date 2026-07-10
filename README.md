@@ -2,36 +2,36 @@ SimC profile for Devourer Demon Hunter, Midnight 12.1 PTR.
 
 All sims run at target_error 0.05 on the gear in `devourer.simc`.
 
-## Single target (300s, lust) — [report](https://mimiron.raidbots.com/simbot/report/w5R8aGY6DNtypnPM8CK4aQ)
+## Single target (300s, lust) ([report](https://mimiron.raidbots.com/simbot/report/ebRCB8QLsqZ9fLa4EhcJhV))
 
 | Build | DPS | Hash |
 |---|---|---|
-| Void-Scarred melee | 222,625 | `vsm-st` |
-| Void-Scarred ranged | 200,059 | `vsr-st` |
-| Annihilator ranged | 192,092 | `anr-st` |
-| Annihilator melee | 166,487 | `anm-st` |
+| Void-Scarred melee | 222,639 | `vsm-st` |
+| Void-Scarred ranged | 203,794 | `vsr-st` |
+| Annihilator ranged | 188,901 | `anr-st` |
+| Annihilator melee | 167,542 | `anm-st` |
 
-## 5 targets — [300s lust](https://mimiron.raidbots.com/simbot/report/cehQWCKmkHzSXyRtmpeZuH) · [60s no lust](https://mimiron.raidbots.com/simbot/report/3qfcEW26cBhVsqD9MgCaSt)
+## 5 targets ([300s lust](https://mimiron.raidbots.com/simbot/report/eFikzbvxFLJSqfXNdaJ4m4), [60s no lust](https://mimiron.raidbots.com/simbot/report/uE8jgzfWSoAJuyskny4nkM))
 
 | Build | 300s | 60s | Hash |
 |---|---|---|---|
-| Void-Scarred melee | 591,617 | 643,735 | `vsm-aoe` |
-| Annihilator ranged | 534,938 | 566,858 | `anr-aoe` |
-| Void-Scarred ranged | 512,972 | 534,586 | `vsr-aoe` |
-| Annihilator melee | 482,980 | 509,852 | `anm-aoe` |
+| Void-Scarred melee | 587,654 | 649,331 | `vsm-aoe` |
+| Annihilator ranged | 554,333 | 580,433 | `anr-aoe` |
+| Void-Scarred ranged | 513,030 | 534,589 | `vsr-aoe` |
+| Annihilator melee | 490,158 | 513,155 | `anm-aoe` |
 
 ## Hashes
 
 | Key | Hash |
 |---|---|
 | vsm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMmZmZmZmBmBAAAAAAYZGjBzAAAAAAAAwMmhxMzMjZmZGzsNzYsptFAEwAMjZmZbmZa2mZbmZMjBA` |
-| vsm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMmZmZmZmBmBAAAAAAYZGjBzAAAAAAAAwMmh5BmZmZmZmZGzsNDjNttAgAGgHgZmZbmZa2mZbmZMzMA` |
-| vsr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMPwMzMjZmZmZmFzYsJAQAAmZmZmtZmpZbmtZmZAD` |
+| vsm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMmZmZmZmBmBAAAAAAYZGjBzAAAAAAAAwMmh5BmZmZmZmZGzsNzMjNttAgAGAMzMbzMTz2MbzMDzMA` |
+| vsr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmlZGjNZBABAYmZmZ2mZmmtZ2mZGgB` |
 | vsr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWmxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMPwMzMzMzMzYmtZGjNttAgAAMjZmZZmZa2mZzYwwA` |
-| anr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZGzsYGjFBzMzMbtNzMDgZmBgAzMDGGA` |
-| anr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMmZmZmZmZGzsYGjFttxMzMzWbzMzAYMDABmxgxMA` |
-| anm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmlZYsIYmZmZrtZmZGgZmBgAzMMMGA` |
-| anm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMmZmZmZmZYmlZYsIYmZmZrtZmZGgxMAEYmZMmxA` |
+| anr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmFzYsILMzMzs12MzMAmZGACMzMYYA` |
+| anr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2mxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMzMzMzMzMDzsYGjFZhZmZmt2mZmBwwAAwMGMmB` |
+| anm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMmZmZMzMDzsMzYsolFmZmZ2abmZmBYmZAIwMDDjPA` |
+| anm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMDzsMzYsILMzMzs12MzMDwDYGACYMGzMfA` |
 
 ## Temporary note 7/9/26:
 
