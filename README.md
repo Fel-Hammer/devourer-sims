@@ -11,12 +11,12 @@ All sims run at target_error 0.05 on the gear in `devourer.simc`.
 | Annihilator ranged | 188,901 | `anr-st` |
 | Annihilator melee | 167,542 | `anm-st` |
 
-## 5 targets ([300s lust](https://mimiron.raidbots.com/simbot/report/c4iFMy3Sq3z3adErgNQ7bD), [60s no lust](https://mimiron.raidbots.com/simbot/report/jQz1h2c3BdvGZbHzaze9w5))
+## 5 targets ([300s lust](https://mimiron.raidbots.com/simbot/report/eFikzbvxFLJSqfXNdaJ4m4), [60s no lust](https://mimiron.raidbots.com/simbot/report/uE8jgzfWSoAJuyskny4nkM))
 
 | Build | 300s | 60s | Hash |
 |---|---|---|---|
 | Void-Scarred melee | 587,654 | 649,331 | `vsm-aoe` |
-| Annihilator ranged | 535,014 | 566,950 | `anr-aoe` |
+| Annihilator ranged | 554,333 | 580,433 | `anr-aoe` |
 | Void-Scarred ranged | 513,030 | 534,589 | `vsr-aoe` |
 | Annihilator melee | 490,158 | 513,155 | `anm-aoe` |
 
@@ -29,7 +29,7 @@ All sims run at target_error 0.05 on the gear in `devourer.simc`.
 | vsr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmlZGjNZBABAYmZmZ2mZmmtZ2mZGgB` |
 | vsr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWmxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMPwMzMzMzMzYmtZGjNttAgAAMjZmZZmZa2mZzYwwA` |
 | anr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmFzYsILMzMzs12MzMAmZGACMzMYYA` |
-| anr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMmZmZmZmZGzsYGjFttxMzMzWbzMzAYMDABmxgxMA` |
+| anr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2mxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMzMzMzMzMDzsYGjFZhZmZmt2mZmBwwAAwMGMmB` |
 | anm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMmZmZMzMDzsMzYsolFmZmZ2abmZmBYmZAIwMDDjPA` |
 | anm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMDzsMzYsILMzMzs12MzMDwDYGACYMGzMfA` |
 
