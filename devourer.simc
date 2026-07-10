@@ -1,7 +1,4 @@
 # Devourer Demon Hunter, Midnight 12.1 PTR
-# One action list for every build, routed by hero tree and The Hunt. Talent hashes are in the README.
-# VS melee retreats before The Hunt so Meta catches the leap (SimC PR #11569). Stock SimC doesn't
-# model the leap yet, so that build reads a little low.
 
 ptr=1
 desired_targets=1
