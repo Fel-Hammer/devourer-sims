@@ -1,6 +1,4 @@
-SimC profile for Devourer Demon Hunter, Midnight 12.1 PTR. `devourer.simc` has the gear and the
-action list. The list handles all four ways to play the spec and routes off your talents, so just
-swap `talents=` to one of the hashes below.
+SimC profile for Devourer Demon Hunter, Midnight 12.1 PTR.
 
 All sims run at target_error 0.05 on the gear in `devourer.simc`.
 
@@ -35,7 +33,7 @@ All sims run at target_error 0.05 on the gear in `devourer.simc`.
 | anm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmlZYsIYmZmZrtZmZGgZmBgAzMMMGA` |
 | anm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMmZmZmZmZYmlZYsIYmZmZrtZmZGgxMAEYmZMmxA` |
 
-## The Hunt and Meta
+## Temporary note 7/9/26:
 
 The Void-Scarred melee list uses Vengeful Retreat right before The Hunt so Metamorphosis lands while
 you're mid-leap. This works in game (SimC PR #11569), but stock SimC and Raidbots don't model the
@@ -43,5 +41,4 @@ leap yet, so the VS melee single target number above reads a little low.
 
 ## Contributing
 
-PRs welcome if you beat one of these numbers with the same kind of build (melee builds keep The
-Hunt, ranged builds skip it). Include the hash and a Raidbots report at target_error 0.05.
+PRs welcome! If you beat one of these numbers include the profile changes and a Raidbots report at target_error 0.05.
