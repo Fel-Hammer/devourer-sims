@@ -2,36 +2,38 @@ SimC profile for Devourer Demon Hunter, Midnight 12.1 PTR.
 
 All sims run at target_error 0.05 on the gear in `devourer.simc`.
 
-## Single target (300s, lust) ([report](https://mimiron.raidbots.com/simbot/report/ebRCB8QLsqZ9fLa4EhcJhV))
+## Single target (300s, lust) ([report](https://mimiron.raidbots.com/simbot/report/eqERA4Fgxz3FLj4aJdsrqY))
 
 | Build | DPS | Hash |
 |---|---|---|
-| Void-Scarred melee | 222,639 | `vsm-st` |
-| Void-Scarred ranged | 203,794 | `vsr-st` |
-| Annihilator ranged | 188,901 | `anr-st` |
-| Annihilator melee | 167,542 | `anm-st` |
+| Void-Scarred melee | 250,641 | `vsm-st` |
+| Void-Scarred ranged | 232,312 | `vsr-st` |
+| Annihilator ranged | 217,365 | `anr-st` |
+| Annihilator melee | 192,249 | `anm-st` |
 
-## 5 targets ([300s lust](https://mimiron.raidbots.com/simbot/report/eFikzbvxFLJSqfXNdaJ4m4), [60s no lust](https://mimiron.raidbots.com/simbot/report/uE8jgzfWSoAJuyskny4nkM))
+## 5 targets ([300s lust](https://mimiron.raidbots.com/simbot/report/pmw8DKq7AeSuV5xtQRUFCa), [60s no lust](https://mimiron.raidbots.com/simbot/report/x7tSYHVgRWwCbDuDNiubTo))
 
 | Build | 300s | 60s | Hash |
 |---|---|---|---|
-| Void-Scarred melee | 587,654 | 649,331 | `vsm-aoe` |
-| Annihilator ranged | 554,333 | 580,433 | `anr-aoe` |
-| Void-Scarred ranged | 513,030 | 534,589 | `vsr-aoe` |
-| Annihilator melee | 490,158 | 513,155 | `anm-aoe` |
+| Void-Scarred melee | 655,788 | 703,065 | `vsm-aoe` |
+| Annihilator ranged | 629,430 | 646,536 | `anr-aoe` |
+| Void-Scarred ranged | 585,782 | 600,196 | `vsr-aoe` |
+| Annihilator melee | 567,178 | 584,488 | `anm-aoe` |
 
 ## Hashes
 
-| Key | Hash |
-|---|---|
-| vsm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMmZmZmZmBmBAAAAAAYZGjBzAAAAAAAAwMmhxMzMjZmZGzsNzYsptFAEwAMjZmZbmZa2mZbmZMjBA` |
-| vsm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMmZmZmZmBmBAAAAAAYZGjBzAAAAAAAAwMmh5BmZmZmZmZGzsNzMjNttAgAGAMzMbzMTz2MbzMDzMA` |
-| vsr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmlZGjNZBABAYmZmZ2mZmmtZ2mZGgB` |
-| vsr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWmxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMPwMzMzMzMzYmtZGjNttAgAAMjZmZZmZa2mZzYwwA` |
-| anr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmFzYsILMzMzs12MzMAmZGACMzMYYA` |
-| anr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2mxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMzMzMzMzMDzsYGjFZhZmZmt2mZmBwwAAwMGMmB` |
-| anm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMmZmZMzMDzsMzYsolFmZmZ2abmZmBYmZAIwMDDjPA` |
-| anm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMDzsMzYsILMzMzs12MzMDwDYGACYMGzMfA` |
+Each row links a single-build report so you can inspect that build's gear and talents.
+
+| Key | Hash | Report |
+|---|---|---|
+| vsm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMmZmZmZmBmBAAAAAAYZGjBzAAAAAAAAwMmhxMzMjZmZGzsNzYsptFAEwAMjZmZbmZa2mZbmZMjBA` | [report](https://mimiron.raidbots.com/simbot/report/j2BiuQWGgQ2ns1cMDGFFBo) |
+| vsm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMmZmZmZmBmBAAAAAAYZGjBzAAAAAAAAwMmh5BmZmZmZmZGzsNzMjNttAgAGAMzMbzMTz2MbzMDzMA` | [report](https://mimiron.raidbots.com/simbot/report/sizmAxH1RE2N8WZPFVv64J) |
+| vsr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmlZGjNZBABAYmZmZ2mZmmtZ2mZGgB` | [report](https://mimiron.raidbots.com/simbot/report/czzn32aNmPs3R9QEqmDG3o) |
+| vsr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWmxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMPwMzMzMzMzYmtZGjNttAgAAMjZmZZmZa2mZzYwwA` | [report](https://mimiron.raidbots.com/simbot/report/emoBjNh2fTKrddho4YaXew) |
+| anr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmFzYsILMzMzs12MzMAmZGACMzMYYA` | [report](https://mimiron.raidbots.com/simbot/report/vup6FDQNAbEcJrhghhKVea) |
+| anr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2mxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMzMzMzMzMDzsYGjFZhZmZmt2mZmBwwAAwMGMmB` | [report](https://mimiron.raidbots.com/simbot/report/akX6j5veb3zXhyUEBJK9LD) |
+| anm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMmZmZMzMDzsMzYsolFmZmZ2abmZmBYmZAIwMDDjPA` | [report](https://mimiron.raidbots.com/simbot/report/eTV5RrduPHZodjkrwPhBK5) |
+| anm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMDzsMzYsILMzMzs12MzMDwDYGACYMGzMfA` | [report](https://mimiron.raidbots.com/simbot/report/w3DhEg8R4bPKP3kTxqjBzZ) |
 
 ## Temporary note 7/9/26:
 
