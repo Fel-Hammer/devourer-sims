@@ -33,7 +33,7 @@ wrist=silvermoon_agents_deflectors,id=244576,ilevel=331,bonus_id=8960/12214/1238
 hands=abyssal_doomhounds_studded_gauntlets,id=271538,ilevel=335,bonus_id=13691/13697
 waist=sash_of_the_forlorn_vessel,id=268256,ilevel=344,bonus_id=13668,gem_id=240908
 legs=abyssal_doomhounds_legwraps,id=271536,ilevel=335,bonus_id=13693/13698,enchant_id=7935
-feet=world_tree_rootwraps,id=244601,ilevel=331,bonus_id=8960/12214,enchant_id=7993
+feet=bespittled_slitherslippers,id=268261,ilevel=335,enchant_id=7993
 finger1=ouroboric_signet,id=272150,ilevel=335,bonus_id=13668,gem_id=240908,enchant_id=7967
 finger2=loa_worshipers_band,id=251513,ilevel=331,bonus_id=8960/12214,gem_id=240908,enchant_id=7967
 trinket1=freightrunners_flask,id=250215,bonus_id=40/12854/13440,content_tuning=883
