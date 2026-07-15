@@ -67,6 +67,8 @@ actions.annihilator_ranged=shadowmeld,if=talent.doomsayer&!buff.doomsayer.up
 actions.annihilator_ranged+=/metamorphosis,if=buff.eradicate.up|!talent.eradicate|active_enemies=1|talent.voidfall
 actions.annihilator_ranged+=/devour,if=buff.soulburst.up
 actions.annihilator_ranged+=/consume,if=buff.soulburst.up
+# spend the star as soon as it is affordable
+actions.annihilator_ranged+=/collapsing_star,if=active_enemies>1&buff.collapsing_star_stacking.stack>=30
 # take the star before stacks overcap
 actions.annihilator_ranged+=/collapsing_star,if=active_enemies=1&(apex.1|buff.dark_matter.up|talent.star_fragments)&buff.collapsing_star_stacking.stack>=35
 actions.annihilator_ranged+=/vengeful_retreat,if=talent.devourers_bite&buff.voidstep.up
@@ -80,7 +82,6 @@ actions.annihilator_ranged+=/call_action_list,name=reaps,if=action.reap.souls_co
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=fight_remains<=6&action.reap.souls_consumed>=1
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=talent.eradicate&active_enemies>1&buff.eradicate.up&action.reap.souls_consumed>=1
 actions.annihilator_ranged+=/void_ray,if=!buff.eradicate.up|!buff.moment_of_craving.up|set_bonus.midnight_season_2_4pc
-actions.annihilator_ranged+=/collapsing_star,if=active_enemies>1
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=active_enemies>1&!buff.metamorphosis.up&buff.moment_of_craving.up&talent.voidfall&(buff.voidfall_building.react<2|variable.ray_after_reap)
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=buff.voidfall_spending.stack>=3&prev_gcd.1.void_ray|buff.voidfall_spending.react>=3
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=active_enemies>1&buff.metamorphosis.up&talent.collapsing_star&buff.collapsing_star_stacking.stack+action.reap.souls_consumed>=30&variable.wont_overcap_cstar&void_metamorphosis_base_drain_ps>35

@@ -2,23 +2,23 @@ SimC profile for Devourer Demon Hunter, Midnight 12.1 PTR.
 
 All sims run at target_error 0.05 on the gear in `devourer.simc`.
 
-## Single target (300s, lust) ([report](https://mimiron.raidbots.com/simbot/report/ebRCB8QLsqZ9fLa4EhcJhV))
+## Single target (300s, lust) ([report](https://mimiron.raidbots.com/simbot/report/8qgPvSM8AUKth4dEzQkLYJ))
 
 | Build | DPS | Hash |
 |---|---|---|
-| Void-Scarred melee | 222,639 | `vsm-st` |
-| Void-Scarred ranged | 203,794 | `vsr-st` |
-| Annihilator ranged | 188,901 | `anr-st` |
-| Annihilator melee | 167,542 | `anm-st` |
+| Void-Scarred melee | 236,969 | `vsm-st` |
+| Void-Scarred ranged | 219,694 | `vsr-st` |
+| Annihilator ranged | 205,230 | `anr-st` |
+| Annihilator melee | 181,628 | `anm-st` |
 
-## 5 targets ([300s lust](https://mimiron.raidbots.com/simbot/report/eFikzbvxFLJSqfXNdaJ4m4), [60s no lust](https://mimiron.raidbots.com/simbot/report/uE8jgzfWSoAJuyskny4nkM))
+## 5 targets ([300s lust](https://mimiron.raidbots.com/simbot/report/jmAwDBhKg5KZo7chH93i2Z), [60s no lust](https://mimiron.raidbots.com/simbot/report/eK8G8K5kWJvsZobfPFRdz7))
 
 | Build | 300s | 60s | Hash |
 |---|---|---|---|
-| Void-Scarred melee | 587,654 | 649,331 | `vsm-aoe` |
-| Annihilator ranged | 554,333 | 580,433 | `anr-aoe` |
-| Void-Scarred ranged | 513,030 | 534,589 | `vsr-aoe` |
-| Annihilator melee | 490,158 | 513,155 | `anm-aoe` |
+| Void-Scarred melee | 620,824 | 666,118 | `vsm-aoe` |
+| Annihilator ranged | 594,218 | 611,729 | `anr-aoe` |
+| Void-Scarred ranged | 554,520 | 568,665 | `vsr-aoe` |
+| Annihilator melee | 535,644 | 552,615 | `anm-aoe` |
 
 ## Hashes
 
