@@ -1,24 +1,25 @@
 SimC profile for Devourer Demon Hunter, Midnight 12.1 PTR.
 
-All sims run at target_error 0.05 on the gear in `devourer.simc`.
+Two gear sets in `devourer.simc` — Void-Scarred (default) and Annihilator (commented). Each archetype
+wears its own set. All sims run at target_error 0.05.
 
-## Single target (300s, lust) ([report](https://mimiron.raidbots.com/simbot/report/eqERA4Fgxz3FLj4aJdsrqY))
+## Single target (300s, lust) ([report](https://mimiron.raidbots.com/simbot/report/oiBShmPYaaT7SCVyS3GxPU))
 
 | Build | DPS | Hash |
 |---|---|---|
-| Void-Scarred melee | 250,641 | `vsm-st` |
-| Void-Scarred ranged | 232,312 | `vsr-st` |
-| Annihilator ranged | 217,365 | `anr-st` |
-| Annihilator melee | 192,249 | `anm-st` |
+| Void-Scarred melee | 258,055 | `vsm-st` |
+| Void-Scarred ranged | 236,931 | `vsr-st` |
+| Annihilator ranged | 224,268 | `anr-st` |
+| Annihilator melee | 196,485 | `anm-st` |
 
-## 5 targets ([300s lust](https://mimiron.raidbots.com/simbot/report/pmw8DKq7AeSuV5xtQRUFCa), [60s no lust](https://mimiron.raidbots.com/simbot/report/x7tSYHVgRWwCbDuDNiubTo))
+## 5 targets ([300s lust](https://mimiron.raidbots.com/simbot/report/fwZY1gCnQU8Tr5meUu48aX), [60s no lust](https://mimiron.raidbots.com/simbot/report/gw4NzAigRk6xGw6YPjGmU1))
 
 | Build | 300s | 60s | Hash |
 |---|---|---|---|
-| Void-Scarred melee | 655,788 | 703,065 | `vsm-aoe` |
-| Annihilator ranged | 629,430 | 646,536 | `anr-aoe` |
-| Void-Scarred ranged | 585,782 | 600,196 | `vsr-aoe` |
-| Annihilator melee | 567,178 | 584,488 | `anm-aoe` |
+| Void-Scarred melee | 684,998 | 816,305 | `vsm-aoe` |
+| Annihilator ranged | 653,218 | 820,428 | `anr-aoe` |
+| Void-Scarred ranged | 604,409 | 747,885 | `vsr-aoe` |
+| Annihilator melee | 584,469 | 736,997 | `anm-aoe` |
 
 ## Hashes
 
@@ -26,20 +27,20 @@ Each row links a single-build report so you can inspect that build's gear and ta
 
 | Key | Hash | Report |
 |---|---|---|
-| vsm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMmZmZmZmBmBAAAAAAYZGjBzAAAAAAAAwMmhxMzMjZmZGzsNzYsptFAEwAMjZmZbmZa2mZbmZMjBA` | [report](https://mimiron.raidbots.com/simbot/report/j2BiuQWGgQ2ns1cMDGFFBo) |
-| vsm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMmZmZmZmBmBAAAAAAYZGjBzAAAAAAAAwMmh5BmZmZmZmZGzsNzMjNttAgAGAMzMbzMTz2MbzMDzMA` | [report](https://mimiron.raidbots.com/simbot/report/sizmAxH1RE2N8WZPFVv64J) |
-| vsr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmlZGjNZBABAYmZmZ2mZmmtZ2mZGgB` | [report](https://mimiron.raidbots.com/simbot/report/czzn32aNmPs3R9QEqmDG3o) |
-| vsr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWmxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMPwMzMzMzMzYmtZGjNttAgAAMjZmZZmZa2mZzYwwA` | [report](https://mimiron.raidbots.com/simbot/report/emoBjNh2fTKrddho4YaXew) |
-| anr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmFzYsILMzMzs12MzMAmZGACMzMYYA` | [report](https://mimiron.raidbots.com/simbot/report/vup6FDQNAbEcJrhghhKVea) |
-| anr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2mxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMzMzMzMzMDzsYGjFZhZmZmt2mZmBwwAAwMGMmB` | [report](https://mimiron.raidbots.com/simbot/report/akX6j5veb3zXhyUEBJK9LD) |
-| anm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMmZmZMzMDzsMzYsolFmZmZ2abmZmBYmZAIwMDDjPA` | [report](https://mimiron.raidbots.com/simbot/report/eTV5RrduPHZodjkrwPhBK5) |
-| anm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMDzsMzYsILMzMzs12MzMDwDYGACYMGzMfA` | [report](https://mimiron.raidbots.com/simbot/report/w3DhEg8R4bPKP3kTxqjBzZ) |
+| vsm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMmZmZmZmBmBAAAAAAYZGjBzAAAAAAAAwMmhxMzMjZmZGzsNzYsptFAEwAMjZmZbmZa2mZbmZMjBA` | [report](https://mimiron.raidbots.com/simbot/report/3CKZVLDmWTPm3WB9MgacJS) |
+| vsm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMmZmZmZmBmBAAAAAAYZGjBzAAAAAAAAwMmh5BmZmZmZmZGzsNzMjNttAgAGAMzMbzMTz2MbzMDzMA` | [report](https://mimiron.raidbots.com/simbot/report/sn6FRJUMij8okdL6sVtkP1) |
+| vsr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmlZGjNZBABAYmZmZ2mZmmtZ2mZGgB` | [report](https://mimiron.raidbots.com/simbot/report/wNnYMoH72QZvU77GdqvtNa) |
+| vsr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWmxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMPwMzMzMzMzYmtZGjNttAgAAMjZmZZmZa2mZzYwwA` | [report](https://mimiron.raidbots.com/simbot/report/b7oyTpd3nvWsnUd8vyBUF7) |
+| anr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmFzYsILMzMzs12MzMAmZGACMzMYYA` | [report](https://mimiron.raidbots.com/simbot/report/xq4Mg29xkSXynr8G8p3J4t) |
+| anr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2mxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMzMzMzMzMDzsYGjFZhZmZmt2mZmBwwAAwMGMmB` | [report](https://mimiron.raidbots.com/simbot/report/ojxGRWKsFF1m3ffPbjBkUT) |
+| anm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMmZmZMzMDzsMzYsolFmZmZ2abmZmBYmZAIwMDDjPA` | [report](https://mimiron.raidbots.com/simbot/report/vqNzmsbUCRQtTwPBcyHze3) |
+| anm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMDzsMzYsILMzMzs12MzMDwDYGACYMGzMfA` | [report](https://mimiron.raidbots.com/simbot/report/37cycTB92g9K3EqoGmZs9D) |
 
-## Temporary note 7/9/26:
+## Temporary note:
 
 The Void-Scarred melee list uses Vengeful Retreat right before The Hunt so Metamorphosis lands while
 you're mid-leap. This works in game (SimC PR #11569), but stock SimC and Raidbots don't model the
-leap yet, so the VS melee single target number above reads a little low.
+leap yet, so the Void-Scarred melee single target number above reads a little low.
 
 ## Contributing
 
