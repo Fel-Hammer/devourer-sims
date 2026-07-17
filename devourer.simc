@@ -14,13 +14,13 @@ timeofday=night
 role=spell
 position=back
 omnium_talents=136822:1/136819:1/136817:1/136818:1/136814:1
+
+# Void-Scarred
 potion=potion_of_recklessness_2
 flask=flask_of_the_magisters_2
 food=blooming_feast
 augmentation=void_touched
 temporary_enchant=main_hand:thalassian_phoenix_oil_2/off_hand:thalassian_phoenix_oil_2
-
-# Void-Scarred
 talents=CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMjBmBAAAAAAYZGjBzAAAAAAAAwMmhxMzMjZmZGzsNzYsptFAEwAMjZmZbmZa2mZbmZMjBA
 set_bonus=midnight_season_2_2pc=1
 set_bonus=midnight_season_2_4pc=1
@@ -42,6 +42,11 @@ main_hand=janthrazet_the_soul_fang,id=271092,ilevel=344,enchant_id=8041
 off_hand=baleful_hexblade,id=268211,ilevel=344,enchant_id=8041
 
 # Annihilator (comment out the Void-Scarred block above, uncomment this)
+#potion=potion_of_recklessness_2
+#flask=flask_of_the_blood_knights_2
+#food=glitter_skewers
+#augmentation=void_touched
+#temporary_enchant=main_hand:thalassian_phoenix_oil_2/off_hand:thalassian_phoenix_oil_2
 #talents=CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmFzYsILMzMzs12MzMAmZGACMzMYYA
 #set_bonus=midnight_season_2_2pc=1
 #set_bonus=midnight_season_2_4pc=1
