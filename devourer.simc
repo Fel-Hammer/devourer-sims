@@ -165,9 +165,9 @@ actions.voidscarred_ranged+=/devour
 actions.voidscarred_ranged+=/consume
 
 # void-scarred (melee)
-# on big pulls a burst proc'd in meta waits for rolling torment
-actions.voidscarred_melee=devour,if=buff.soulburst.up&(active_enemies<4|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2)
-actions.voidscarred_melee+=/consume,if=buff.soulburst.up&(active_enemies<4|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2)
+# on big pulls a burst proc'd in meta waits for rolling torment, on 2-3 targets ride out the meta tail
+actions.voidscarred_melee=devour,if=buff.soulburst.up&(active_enemies=1|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2|active_enemies<4&buff.metamorphosis.remains>3)
+actions.voidscarred_melee+=/consume,if=buff.soulburst.up&(active_enemies=1|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2|active_enemies<4&buff.metamorphosis.remains>3)
 actions.voidscarred_melee+=/voidblade,if=buff.void_metamorphosis_stack.at_max_stacks
 # open distance so meta catches the hunt mid-leap
 actions.voidscarred_melee+=/vengeful_retreat,if=buff.void_metamorphosis_stack.at_max_stacks&cooldown.the_hunt.ready&!buff.metamorphosis.up&active_enemies=1
@@ -186,8 +186,8 @@ actions.voidscarred_melee+=/call_action_list,name=reaps,if=action.reap.souls_con
 actions.voidscarred_melee+=/predators_wake
 actions.voidscarred_melee+=/void_ray,if=!buff.eradicate.up|!buff.moment_of_craving.up|set_bonus.midnight_season_2_4pc
 actions.voidscarred_melee+=/soul_immolation,if=active_dot.soul_immolation=0&!buff.metamorphosis.up
-actions.voidscarred_melee+=/devour,if=!buff.soulburst.up|active_enemies<4|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2
-actions.voidscarred_melee+=/consume,if=!buff.soulburst.up|active_enemies<4|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2
+actions.voidscarred_melee+=/devour,if=!buff.soulburst.up|active_enemies=1|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2|active_enemies<4&buff.metamorphosis.remains>3
+actions.voidscarred_melee+=/consume,if=!buff.soulburst.up|active_enemies=1|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2|active_enemies<4&buff.metamorphosis.remains>3
 
 # variables
 actions.variables=variable,name=wont_overcap_cstar,op=set,value=!buff.metamorphosis.up|((buff.collapsing_star_stacking.stack+action.reap.souls_consumed)<=buff.collapsing_star_stacking.max_stack|!(talent.collapsing_star&(active_enemies>1|apex.1|buff.dark_matter.up|talent.star_fragments)))
