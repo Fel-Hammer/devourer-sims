@@ -3,23 +3,23 @@ SimC profile for Devourer Demon Hunter, Midnight 12.1 PTR.
 Two gear sets in `devourer.simc` — Void-Scarred (default) and Annihilator (commented). Each archetype
 wears its own set. All sims run at target_error 0.05.
 
-## Single target (300s, lust)
+## Single target (300s, lust) ([report](https://mimiron.raidbots.com/simbot/report/11YcXmf2KgT2ZncsEzThqd))
 
 | Build | DPS | Hash |
 |---|---|---|
-| Void-Scarred melee | 252,747 | `vsm-st` |
-| Void-Scarred ranged | 230,157 | `vsr-st` |
-| Annihilator ranged | 220,284 | `anr-st` |
-| Annihilator melee | 202,097 | `anm-st` |
+| Void-Scarred melee | 260,472 | `vsm-st` |
+| Void-Scarred ranged | 238,568 | `vsr-st` |
+| Annihilator ranged | 224,868 | `anr-st` |
+| Annihilator melee | 207,165 | `anm-st` |
 
-## 5 targets (300s lust, 60s no lust)
+## 5 targets ([300s lust](https://mimiron.raidbots.com/simbot/report/wbuh8CH1cYcfFgNxtRC7kd), [60s no lust](https://mimiron.raidbots.com/simbot/report/8QjzKvNWdyBV3AQaZ2Ua3N))
 
 | Build | 300s | 60s | Hash |
 |---|---|---|---|
-| Void-Scarred melee | 698,022 | 739,508 | `vsm-aoe` |
-| Annihilator ranged | 659,644 | 691,402 | `anr-aoe` |
-| Void-Scarred ranged | 604,232 | 621,059 | `vsr-aoe` |
-| Annihilator melee | 591,344 | 618,913 | `anm-aoe` |
+| Void-Scarred melee | 716,313 | 753,599 | `vsm-aoe` |
+| Annihilator ranged | 664,327 | 695,899 | `anr-aoe` |
+| Void-Scarred ranged | 618,177 | 630,025 | `vsr-aoe` |
+| Annihilator melee | 596,871 | 623,529 | `anm-aoe` |
 
 ## Hashes
 
@@ -38,12 +38,9 @@ Each row links a single-build report so you can inspect that build's gear and ta
 
 ## Temporary note:
 
-The marks above were simmed locally on SimC built from upstream midnight plus two pending PRs:
-#11569 (Metamorphosis catches The Hunt mid-leap — the Void-Scarred melee list sets this up with
-Vengeful Retreat right before The Hunt, and it works in game) and #11359 (soul fragments auto-pickup
-in range). Stock SimC and Raidbots model neither yet, so Raidbots runs of this profile won't match
-these numbers — single target reads a few percent higher without #11359, and Void-Scarred melee
-reads low without #11569. Report links return once both land upstream.
+The Void-Scarred melee list uses Vengeful Retreat right before The Hunt so Metamorphosis lands while
+you're mid-leap. This works in game (SimC PR #11569), but stock SimC and Raidbots don't model the
+leap yet, so the Void-Scarred melee single target number above reads a little low.
 
 ## Contributing
 
