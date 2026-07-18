@@ -16,12 +16,10 @@ wears its own set. All sims run at target_error 0.05.
 
 | Build | 300s | 60s | Hash |
 |---|---|---|---|
-| Void-Scarred melee | 698,022 | 861,509 | `vsm-aoe` |
-| Annihilator ranged | 659,644 | 847,474 | `anr-aoe` |
-| Void-Scarred ranged | 604,232 | 760,904 | `vsr-aoe` |
-| Annihilator melee | 591,344 | 769,116 | `anm-aoe` |
-
-Rows are ranked by the 300s column; at 60s Annihilator melee edges Void-Scarred ranged on this engine.
+| Void-Scarred melee | 698,022 | 739,508 | `vsm-aoe` |
+| Annihilator ranged | 659,644 | 691,402 | `anr-aoe` |
+| Void-Scarred ranged | 604,232 | 621,059 | `vsr-aoe` |
+| Annihilator melee | 591,344 | 618,913 | `anm-aoe` |
 
 ## Hashes
 
