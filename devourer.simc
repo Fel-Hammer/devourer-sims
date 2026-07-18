@@ -82,7 +82,6 @@ actions.precombat+=/arcane_torrent
 actions.precombat+=/soul_immolation
 actions.precombat+=/consume
 
-# dispatch
 actions=call_action_list,name=variables
 actions+=/call_action_list,name=cooldowns
 actions+=/run_action_list,name=annihilator_melee,if=hero_tree.annihilator&talent.the_hunt
@@ -93,11 +92,8 @@ actions+=/run_action_list,name=voidscarred_melee,if=hero_tree.voidscarred&talent
 actions.annihilator_ranged=metamorphosis,if=buff.eradicate.up|!talent.eradicate|active_enemies=1|talent.voidfall
 actions.annihilator_ranged+=/devour,if=buff.soulburst.up&active_enemies=1
 actions.annihilator_ranged+=/consume,if=buff.soulburst.up
-# arm eradicate before the pull spends its souls
 actions.annihilator_ranged+=/void_ray,if=talent.eradicate&active_enemies>1&!buff.eradicate.up
-# spend the star as soon as it is affordable
 actions.annihilator_ranged+=/collapsing_star,if=active_enemies>1&buff.collapsing_star_stacking.stack>=30
-# take the star before stacks overcap
 actions.annihilator_ranged+=/collapsing_star,if=active_enemies=1&(apex.1|buff.dark_matter.up|talent.star_fragments)&buff.collapsing_star_stacking.stack>=35
 actions.annihilator_ranged+=/voidblade,if=talent.devourers_bite&buff.metamorphosis.up
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=action.reap.souls_consumed>=4&active_enemies<5
@@ -111,14 +107,11 @@ actions.annihilator_ranged+=/soul_immolation,if=active_dot.soul_immolation=0&!bu
 actions.annihilator_ranged+=/devour
 actions.annihilator_ranged+=/consume
 
-# pool a beat before meta so the star cycle opens with a soul or a ray
 actions.annihilator_melee=metamorphosis,if=(buff.eradicate.up|!talent.eradicate|active_enemies=1|talent.voidfall)&(active_enemies>1|buff.moment_of_craving.up|cooldown.void_ray.remains>6)
 actions.annihilator_melee+=/devour,if=buff.soulburst.up
 actions.annihilator_melee+=/consume,if=buff.soulburst.up
-# arm eradicate before the pull spends its souls
 actions.annihilator_melee+=/void_ray,if=talent.eradicate&active_enemies>1&!buff.eradicate.up
 actions.annihilator_melee+=/collapsing_star,if=active_enemies=1&(apex.1|buff.dark_matter.up|talent.star_fragments)
-# ride the meta amp with the hunt
 actions.annihilator_melee+=/the_hunt,if=buff.metamorphosis.up
 actions.annihilator_melee+=/hungering_slash,if=!buff.metamorphosis.up&soul_fragments<=8
 actions.annihilator_melee+=/reapers_toll,if=!buff.metamorphosis.up&soul_fragments<=8
@@ -127,10 +120,8 @@ actions.annihilator_melee+=/hungering_slash,if=talent.devourers_bite&active_enem
 actions.annihilator_melee+=/reapers_toll,if=talent.devourers_bite&(buff.voidsurge_reapers_toll.up|active_enemies>1)
 actions.annihilator_melee+=/voidblade,if=talent.devourers_bite&buff.metamorphosis.up
 actions.annihilator_melee+=/voidblade,if=!buff.metamorphosis.up&debuff.devourers_bite.remains<4&(active_enemies=1|!talent.eradicate&active_enemies<4)
-# at one target reap freely, the star feed is not worth the hold
 actions.annihilator_melee+=/call_action_list,name=reaps,if=active_enemies=1&action.reap.souls_consumed>=4
 actions.annihilator_melee+=/call_action_list,name=reaps,if=!talent.eradicate&(active_enemies>1&variable.wont_overcap_cstar&set_bonus.midnight_season_2_4pc&(buff.voidfall_spending.stack>=3&prev_gcd.1.void_ray|buff.voidfall_spending.react>=3))
-# hold single-target reaps so late souls feed the star
 actions.annihilator_melee+=/call_action_list,name=reaps,if=action.reap.souls_consumed>=4&active_enemies<5&(active_enemies>1|!buff.metamorphosis.up|buff.moment_of_craving.up|buff.collapsing_star_stacking.stack+action.reap.souls_consumed>=30|void_metamorphosis_base_drain_ps>35)
 actions.annihilator_melee+=/call_action_list,name=reaps,if=fight_remains<=6&action.reap.souls_consumed>=1
 actions.annihilator_melee+=/call_action_list,name=reaps,if=talent.eradicate&active_enemies>1&buff.eradicate.up&action.reap.souls_consumed>=1
@@ -144,12 +135,10 @@ actions.annihilator_melee+=/soul_immolation,if=active_dot.soul_immolation=0&!buf
 actions.annihilator_melee+=/devour
 actions.annihilator_melee+=/consume
 
-# void-scarred (ranged)
 actions.voidscarred_ranged=voidblade,if=buff.void_metamorphosis_stack.at_max_stacks&talent.devourers_bite
 actions.voidscarred_ranged+=/metamorphosis,if=buff.eradicate.up|!talent.eradicate|active_enemies=1
 actions.voidscarred_ranged+=/devour,if=buff.soulburst.up&active_enemies=1
 actions.voidscarred_ranged+=/consume,if=buff.soulburst.up
-# star build only, near overcap so no stacks are wasted
 actions.voidscarred_ranged+=/collapsing_star,if=active_enemies=1&talent.star_fragments&apex.1&buff.collapsing_star_stacking.stack>=35
 actions.voidscarred_ranged+=/call_action_list,name=reaps,if=action.reap.souls_consumed>=4
 actions.voidscarred_ranged+=/call_action_list,name=reaps,if=fight_remains<=6&action.reap.souls_consumed>=1
@@ -164,19 +153,14 @@ actions.voidscarred_ranged+=/soul_immolation,if=active_dot.soul_immolation=0&!bu
 actions.voidscarred_ranged+=/devour
 actions.voidscarred_ranged+=/consume
 
-# void-scarred (melee)
-# on big pulls a burst proc'd in meta waits for rolling torment
-actions.voidscarred_melee=devour,if=buff.soulburst.up&(active_enemies<4|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2)
-actions.voidscarred_melee+=/consume,if=buff.soulburst.up&(active_enemies<4|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2)
+actions.voidscarred_melee=devour,if=buff.soulburst.up&(active_enemies=1|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2|active_enemies<4&buff.metamorphosis.remains>3)
+actions.voidscarred_melee+=/consume,if=buff.soulburst.up&(active_enemies=1|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2|active_enemies<4&buff.metamorphosis.remains>3)
 actions.voidscarred_melee+=/voidblade,if=buff.void_metamorphosis_stack.at_max_stacks
-# open distance so meta catches the hunt mid-leap
 actions.voidscarred_melee+=/vengeful_retreat,if=buff.void_metamorphosis_stack.at_max_stacks&cooldown.the_hunt.ready&!buff.metamorphosis.up&active_enemies=1
 actions.voidscarred_melee+=/the_hunt,if=buff.void_metamorphosis_stack.at_max_stacks&buff.vengeful_retreat_movement.up&active_enemies=1
 actions.voidscarred_melee+=/metamorphosis,if=buff.eradicate.up|!talent.eradicate|active_enemies=1
 actions.voidscarred_melee+=/the_hunt,if=!buff.metamorphosis.up&(active_enemies>1|fight_remains<15|buff.void_metamorphosis_stack.stack<buff.void_metamorphosis_stack.max_stack*0.25)
-# on packs get the dot rolling before the builders
 actions.voidscarred_melee+=/soul_immolation,if=active_dot.soul_immolation=0&!buff.metamorphosis.up&active_enemies>1
-# arming eradicate is an aoe play, the filler ray covers single target
 actions.voidscarred_melee+=/void_ray,if=talent.eradicate&!buff.eradicate.up&action.reap.souls_consumed>=2&active_enemies>1
 actions.voidscarred_melee+=/hungering_slash
 actions.voidscarred_melee+=/reapers_toll,if=soul_fragments<=8
@@ -186,14 +170,12 @@ actions.voidscarred_melee+=/call_action_list,name=reaps,if=action.reap.souls_con
 actions.voidscarred_melee+=/predators_wake
 actions.voidscarred_melee+=/void_ray,if=!buff.eradicate.up|!buff.moment_of_craving.up|set_bonus.midnight_season_2_4pc
 actions.voidscarred_melee+=/soul_immolation,if=active_dot.soul_immolation=0&!buff.metamorphosis.up
-actions.voidscarred_melee+=/devour,if=!buff.soulburst.up|active_enemies<4|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2
-actions.voidscarred_melee+=/consume,if=!buff.soulburst.up|active_enemies<4|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2
+actions.voidscarred_melee+=/devour,if=!buff.soulburst.up|active_enemies=1|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2|active_enemies<4&buff.metamorphosis.remains>3
+actions.voidscarred_melee+=/consume,if=!buff.soulburst.up|active_enemies=1|!buff.metamorphosis.up|buff.soulburst.remains<gcd.max*2|active_enemies<4&buff.metamorphosis.remains>3
 
-# variables
 actions.variables=variable,name=wont_overcap_cstar,op=set,value=!buff.metamorphosis.up|((buff.collapsing_star_stacking.stack+action.reap.souls_consumed)<=buff.collapsing_star_stacking.max_stack|!(talent.collapsing_star&(active_enemies>1|apex.1|buff.dark_matter.up|talent.star_fragments)))
 actions.variables+=/variable,name=ray_after_reap,op=set,value=fury+4*action.reap.souls_consumed+10*talent.scythes_embrace>=100
 
-# trinkets, pot, external buffs
 actions.cooldowns=invoke_external_buff,name=power_infusion,if=buff.metamorphosis.up&!buff.power_infusion.up
 actions.cooldowns+=/potion,if=buff.metamorphosis.up|fight_remains<=30
 actions.cooldowns+=/use_item,slot=trinket1,if=buff.metamorphosis.up&(!trinket.2.has_cooldown|trinket.2.cooldown.remains|variable.trinket_priority=1|variable.trinket_2_exclude)&!variable.trinket_1_manual|trinket.1.proc.any_dps.duration>=fight_remains|fight_remains<=trinket.1.buff.any_dps.duration
@@ -203,7 +185,6 @@ actions.cooldowns+=/use_item,use_off_gcd=1,slot=trinket2,if=!variable.trinket_2_
 actions.cooldowns+=/use_item,slot=trinket1,if=!variable.trinket_1_buffs&!variable.trinket_1_manual&(variable.damage_trinket_priority=1|trinket.2.cooldown.remains|trinket.2.is.spymasters_web|trinket.2.cooldown.duration=0)&!variable.trinket_1_ogcd_cast
 actions.cooldowns+=/use_item,slot=trinket2,if=!variable.trinket_2_buffs&!variable.trinket_2_manual&(variable.damage_trinket_priority=2|trinket.1.cooldown.remains|trinket.1.is.spymasters_web|trinket.1.cooldown.duration=0)&!variable.trinket_2_ogcd_cast
 
-# reaps
 actions.reaps=eradicate
 actions.reaps+=/cull
 actions.reaps+=/reap
