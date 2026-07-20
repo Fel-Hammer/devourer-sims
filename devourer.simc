@@ -160,8 +160,9 @@ actions.voidscarred_melee+=/vengeful_retreat,if=buff.void_metamorphosis_stack.at
 actions.voidscarred_melee+=/the_hunt,if=buff.void_metamorphosis_stack.at_max_stacks&buff.vengeful_retreat_movement.up&active_enemies=1
 actions.voidscarred_melee+=/metamorphosis,if=buff.eradicate.up|!talent.eradicate|active_enemies=1
 actions.voidscarred_melee+=/the_hunt,if=!buff.metamorphosis.up&(active_enemies>1|fight_remains<15|buff.void_metamorphosis_stack.stack<buff.void_metamorphosis_stack.max_stack*0.25)
-actions.voidscarred_melee+=/soul_immolation,if=active_dot.soul_immolation=0&!buff.metamorphosis.up&active_enemies>1
 actions.voidscarred_melee+=/void_ray,if=talent.eradicate&!buff.eradicate.up&action.reap.souls_consumed>=2&active_enemies>1
+actions.voidscarred_melee+=/soul_immolation,if=active_dot.soul_immolation=0&!buff.metamorphosis.up&active_enemies>1
+actions.voidscarred_melee+=/voidblade,if=talent.devourers_bite&!buff.metamorphosis.up&debuff.devourers_bite.remains<gcd.max*2&active_enemies>1
 actions.voidscarred_melee+=/hungering_slash
 actions.voidscarred_melee+=/reapers_toll,if=soul_fragments<=8
 actions.voidscarred_melee+=/vengeful_retreat,if=buff.voidstep.up
