@@ -24,17 +24,12 @@ dungeon-route (`-dung`) loadouts.
 
 ## Dungeon route — Temple of Sethraliss ([report](https://mimiron.raidbots.com/simbot/report/nMvPTYxNba9wwX9JMHDidB))
 
-`temple-of-sethraliss-route.simc` is a full M+ route reconstructed from 12.1 PTR logs: pull
-composition, chaining, travel times, and per-mob health from a 21-run consensus (+10 to +20 keys),
-health scaled to a single actor's share of group damage. Mixed single-target, cleave, burst AoE,
-and priority targets over a ~15 minute route. Run it with:
+`temple-of-sethraliss-route.simc` is a full Temple of Sethraliss M+ route with real pull
+composition, chaining, and mob health from 12.1 PTR logs, scaled for a single actor. Run it with:
 
     simc devourer.simc temple-of-sethraliss-route.simc
 
-Each archetype has a dungeon-route loadout (`-dung`). Void-Scarred melee's was found by racing
-every legal build within six talent changes of the AoE champion over the full route — its soul
-economy shifts toward the single-target core. The other three currently use their AoE talents;
-their route races are queued.
+Each archetype has a dungeon-route loadout (`-dung`).
 
 | Build | DPS | Hash |
 |---|---|---|
@@ -50,7 +45,7 @@ their route races are queued.
 ## Hashes
 
 Each row links a single-build report so you can inspect that build's gear and talents.
-`vsr-dung`, `anr-dung`, and `anm-dung` are their identity's `-aoe` hash for now.
+`vsr-dung`, `anr-dung`, and `anm-dung` currently use their identity's `-aoe` hash.
 
 | Key | Hash | Report |
 |---|---|---|

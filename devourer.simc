@@ -21,10 +21,10 @@ flask=flask_of_the_magisters_2
 food=blooming_feast
 augmentation=void_touched
 temporary_enchant=main_hand:thalassian_phoenix_oil_2/off_hand:thalassian_phoenix_oil_2
+head=gaze_of_the_coiled_watcher,id=271875,ilevel=344,bonus_id=13847/13668,gem_id=240983,enchant_id=7991
 talents=CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMjBmBAAAAAAYZGjBzAAAAAAAAwMmhxMzMjZmZGzsNzYsptFAEwAMjZmZbmZa2mZbmZMjBA
 set_bonus=midnight_season_2_2pc=1
 set_bonus=midnight_season_2_4pc=1
-head=gaze_of_the_coiled_watcher,id=271875,ilevel=344,bonus_id=13847/13668,gem_id=240983,enchant_id=7991
 neck=aqirbane_reliquary,id=268265,ilevel=344,bonus_id=13668/13708,gem_id=240898/240898
 shoulder=somber_spaulders,id=251223,ilevel=334,enchant_id=8031
 back=silken_voodoo_drape,id=268253,ilevel=344
@@ -47,10 +47,10 @@ off_hand=baleful_hexblade,id=268211,ilevel=344,enchant_id=8041
 #food=glitter_skewers
 #augmentation=void_touched
 #temporary_enchant=main_hand:thalassian_phoenix_oil_2/off_hand:thalassian_phoenix_oil_2
+#head=gaze_of_the_coiled_watcher,id=271875,ilevel=344,bonus_id=13847/13668,gem_id=240892,enchant_id=7991
 #talents=CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmFzYsILMzMzs12MzMAmZGACMzMYYA
 #set_bonus=midnight_season_2_2pc=1
 #set_bonus=midnight_season_2_4pc=1
-#head=gaze_of_the_coiled_watcher,id=271875,ilevel=344,bonus_id=13847/13668,gem_id=240892,enchant_id=7991
 #neck=aqirbane_reliquary,id=268265,ilevel=344,bonus_id=13668/13708,gem_id=240983/240892
 #shoulder=somber_spaulders,id=251223,ilevel=334,enchant_id=8031
 #back=silken_voodoo_drape,id=268253,ilevel=344
