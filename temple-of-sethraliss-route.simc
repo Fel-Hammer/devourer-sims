@@ -1,0 +1,55 @@
+# Temple of Sethraliss — standard Mythic+ dungeon route (Midnight Season 2).
+# Reconstructed from 12.1 PTR logs on Warcraft Logs: pull composition, chaining, travel
+# times, and per-mob health from a 21-run consensus (+10 to +20 keys). Mob health is the
+# logged +15 value scaled to a single actor's share (x0.27, the measured DPS-player share
+# of group damage); scale any key with HP(k) = shown x 1.1^(k-15).
+# Usage: append to the profile —  simc devourer.simc temple-of-sethraliss-route.simc
+# Bloodlust fires on pull 1 and Galvazzt (as logged groups do); the override below turns
+# off the fixed-time lust so the per-pull flags decide.
+fight_style=DungeonRoute
+max_time=3000
+vary_combat_length=0
+desired_targets=1
+override.bloodlust=0
+
+enemy=DungeonRoute_TempleOfSethraliss
+enemy_health=999999
+raid_events=/invulnerable,cooldown=6000,duration=6000,retarget=1
+# entrance pack A; chained into B by fast groups
+raid_events+=/pull,pull=01,bloodlust=1,delay=010,enemies="shrouded-fang_1":2985995:Beast|"shrouded-fang_2":2985995:Beast|"shrouded-fang_3":2985995:Beast|"sandswept-hunter_1":3284595|"sandswept-hunter_2":3284595|"sandswept-hunter_3":3284595|"barbed-krolusk_1":2388796:Beast|"barbed-krolusk_2":2388796:Beast|"rogue-krolusk_1":59720:Beast|"rogue-krolusk_2":59720:Beast|"storm-adept_1":2687396|"sandfury-stonefist_1":5374791
+# entrance pack B
+raid_events+=/pull,pull=02,bloodlust=0,delay=002,enemies="shrouded-fang_1":2985995:Beast|"shrouded-fang_2":2985995:Beast|"sandswept-hunter_1":3284595|"sandswept-hunter_2":3284595|"barbed-krolusk_1":2388796:Beast|"barbed-krolusk_2":2388796:Beast|"rogue-krolusk_1":59720:Beast|"rogue-krolusk_2":59720:Beast|"storm-adept_1":2687396|"storm-adept_2":2687396|"sandfury-stonefist_1":5374791
+# boss 1: Adderis and Aspix
+raid_events+=/pull,pull=03,bloodlust=0,delay=005,enemies="BOSS_adderis_1":10886440|"BOSS_aspix_1":10886440
+# rider patrol
+raid_events+=/pull,pull=04,bloodlust=0,delay=013,enemies="sand-sworn-rider_1":4777592|"lightning-serpent_1":2985995:Beast|"poisonous-viper_1":2985995:Beast|"sandswept-hunter_1":3284595|"storm-adept_1":2687396
+# snake wing, first packs; the wing is one 26-mob chain in fast runs
+raid_events+=/pull,pull=05,bloodlust=0,delay=006,enemies="sand-sworn-rider_1":4777592|"sand-sworn-rider_2":4777592|"lightning-serpent_1":2985995:Beast|"lightning-serpent_2":2985995:Beast|"poisonous-viper_1":2985995:Beast|"poisonous-viper_2":2985995:Beast|"faithless-subjugator_1":2985995|"faithless-subjugator_2":2985995|"brood-tender_1":2985995
+# snake wing, far packs
+raid_events+=/pull,pull=06,bloodlust=0,delay=002,enemies="sand-sworn-rider_1":4777592|"lightning-serpent_1":2985995:Beast|"lightning-serpent_2":2985995:Beast|"lightning-serpent_3":2985995:Beast|"poisonous-viper_1":2985995:Beast|"poisonous-viper_2":2985995:Beast|"poisonous-viper_3":2985995:Beast|"faithless-subjugator_1":2985995|"brood-tender_1":2985995|"brood-tender_2":2985995|"sandswept-hunter_1":3284595|"sandswept-hunter_2":3284595
+# boss 2: Merektha; snakes stream in waves, trimmed to max concurrent
+raid_events+=/pull,pull=07,bloodlust=0,delay=005,enemies="BOSS_merektha_1":14929974|"snake_1":995332:Beast|"snake_2":995332:Beast|"snake_3":995332:Beast|"snake_4":995332:Beast|"snake_5":995332:Beast|"snake_6":995332:Beast|"snake_7":995332:Beast|"snake_8":995332:Beast|"snake_9":995332:Beast|"snake_10":995332:Beast|"toxic-viper_1":1169515:Beast|"toxic-viper_2":1169515:Beast|"toxic-viper_3":1169515:Beast|"storm-serpent_1":2488329:Beast
+# storm terrace pack A
+raid_events+=/pull,pull=08,bloodlust=0,delay=008,enemies="agitated-nimbus_1":4777592:Elemental|"agitated-nimbus_2":4777592:Elemental|"agitated-nimbus_3":4777592:Elemental|"static-anomaly_1":2985995:Elemental|"static-anomaly_2":2985995:Elemental|"imbued-stormcaller_1":2985995|"imbued-stormcaller_2":2985995|"spark-channeler_1":597199
+# storm terrace pack B
+raid_events+=/pull,pull=09,bloodlust=0,delay=003,enemies="static-anomaly_1":2985995:Elemental|"static-anomaly_2":2985995:Elemental|"static-anomaly_3":2985995:Elemental|"static-anomaly_4":2985995:Elemental|"imbued-stormcaller_1":2985995|"imbued-stormcaller_2":2985995
+# boss 3: Galvazzt
+raid_events+=/pull,pull=10,bloodlust=1,delay=007,enemies="BOSS_galvazzt_1":18662468
+# gauntlet-entrance channeler; solo pull or dragged into the gauntlet, split 50/50
+raid_events+=/pull,pull=11,bloodlust=0,delay=020,enemies="conduit-channeler_1":895799
+# orb gauntlet, first stretch; conscripts stream continuously
+raid_events+=/pull,pull=12,bloodlust=0,delay=005,enemies="faithless-conscript_1":597199|"faithless-conscript_2":597199|"faithless-conscript_3":597199|"faithless-conscript_4":597199|"faithless-conscript_5":597199|"faithless-conscript_6":597199|"faithless-conscript_7":597199|"faithless-conscript_8":597199|"faithless-conscript_9":597199|"faithless-conscript_10":597199|"faithless-conscript_11":597199|"faithless-conscript_12":597199|"faithless-conscript_13":597199|"orb-watcher_1":5971990|"temple-disruptor_1":1791597|"temple-disruptor_2":1791597
+# orb gauntlet, second stretch
+raid_events+=/pull,pull=13,bloodlust=0,delay=000,enemies="faithless-conscript_1":597199|"faithless-conscript_2":597199|"faithless-conscript_3":597199|"faithless-conscript_4":597199|"faithless-conscript_5":597199|"faithless-conscript_6":597199|"faithless-conscript_7":597199|"faithless-conscript_8":597199|"faithless-conscript_9":597199|"faithless-conscript_10":597199|"faithless-conscript_11":597199|"faithless-conscript_12":597199|"faithless-conscript_13":597199|"faithless-conscript_14":597199|"faithless-conscript_15":597199|"faithless-conscript_16":597199|"faithless-conscript_17":597199|"orb-watcher_1":5971990|"temple-disruptor_1":1791597|"temple-disruptor_2":1791597
+# orb gauntlet, courtyard flood
+raid_events+=/pull,pull=14,bloodlust=0,delay=000,enemies="faithless-conscript_1":597199|"faithless-conscript_2":597199|"faithless-conscript_3":597199|"faithless-conscript_4":597199|"faithless-conscript_5":597199|"faithless-conscript_6":597199|"faithless-conscript_7":597199|"faithless-conscript_8":597199|"faithless-conscript_9":597199|"faithless-conscript_10":597199|"faithless-conscript_11":597199|"faithless-conscript_12":597199|"faithless-conscript_13":597199|"faithless-conscript_14":597199|"faithless-conscript_15":597199|"faithless-conscript_16":597199|"faithless-conscript_17":597199|"faithless-conscript_18":597199|"faithless-conscript_19":597199|"faithless-conscript_20":597199|"faithless-conscript_21":597199
+# orb gauntlet, the ascended hexxer
+raid_events+=/pull,pull=15,bloodlust=0,delay=000,enemies="faithless-conscript_1":597199|"faithless-conscript_2":597199|"faithless-conscript_3":597199|"faithless-conscript_4":597199|"faithless-conscript_5":597199|"faithless-conscript_6":597199|"faithless-conscript_7":597199|"faithless-conscript_8":597199|"faithless-tormentor_1":1045098|"faithless-tormentor_2":1045098|"faithless-tormentor_3":1045098|"faithless-tormentor_4":1045098|"twisted-hexxer-ascended_1":4478993
+# boss 4: Avatar of Sethraliss, defiler trio waves
+raid_events+=/pull,pull=16,bloodlust=0,delay=008,enemies="corrupted-guardian_1":995332|"corrupted-guardian_2":995332|"essence-defiler_1":2985995|"essence-defiler_2":2985995|"twisted-hexxer_1":1119748|"twisted-hexxer_2":1119748
+# boss 4: devout swarm; wave cadence is spawn-gated in game
+raid_events+=/pull,pull=17,bloodlust=0,delay=010,enemies="faithless-devout_1":572316|"faithless-devout_2":572316|"faithless-devout_3":572316|"faithless-devout_4":572316|"faithless-devout_5":572316|"faithless-devout_6":572316|"faithless-devout_7":572316|"faithless-devout_8":572316|"faithless-devout_9":572316|"faithless-devout_10":572316|"faithless-devout_11":572316|"faithless-devout_12":572316
+# boss 4: defiler trio waves
+raid_events+=/pull,pull=18,bloodlust=0,delay=015,enemies="corrupted-guardian_1":995332|"corrupted-guardian_2":995332|"essence-defiler_1":2985995|"essence-defiler_2":2985995|"twisted-hexxer_1":1119748|"twisted-hexxer_2":1119748
+# boss 4: devout swarm
+raid_events+=/pull,pull=19,bloodlust=0,delay=010,enemies="faithless-devout_1":572316|"faithless-devout_2":572316|"faithless-devout_3":572316|"faithless-devout_4":572316|"faithless-devout_5":572316|"faithless-devout_6":572316|"faithless-devout_7":572316|"faithless-devout_8":572316|"faithless-devout_9":572316|"faithless-devout_10":572316|"faithless-devout_11":572316|"faithless-devout_12":572316
