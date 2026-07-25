@@ -153,8 +153,7 @@ actions.voidscarred_ranged+=/soul_immolation,if=active_dot.soul_immolation=0&!bu
 actions.voidscarred_ranged+=/devour
 actions.voidscarred_ranged+=/consume
 
-actions.voidscarred_melee=pick_up_fragment,mode=nearest,type=all,use_off_gcd=1,line_cd=0.6,if=buff.metamorphosis.up&active_enemies>1&variable.void_ray_count<2&cooldown.void_ray.remains<3&fury<void_metamorphosis_base_drain_ps*cooldown.void_ray.remains+15
-actions.voidscarred_melee+=/run_action_list,name=vsm_st,if=active_enemies=1
+actions.voidscarred_melee=run_action_list,name=vsm_st,if=active_enemies=1
 actions.voidscarred_melee+=/run_action_list,name=vsm_meta,if=buff.metamorphosis.up
 actions.voidscarred_melee+=/run_action_list,name=vsm_out
 
