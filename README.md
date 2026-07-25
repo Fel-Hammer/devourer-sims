@@ -4,25 +4,25 @@ Two gear sets in `devourer.simc` — Void-Scarred (default) and Annihilator (com
 wears its own set. All sims run at target_error 0.05. Group reports carry every build, including the
 dungeon-route (`-dung`) loadouts.
 
-## Single target (300s, lust) ([report](https://mimiron.raidbots.com/simbot/report/unjDcqWzakpH5GkZgfPsoW))
+## Single target (300s, lust) ([report](https://mimiron.raidbots.com/simbot/report/pUBsLvBCUctjykk2RC57ww))
 
 | Build | DPS | Hash |
 |---|---|---|
-| Void-Scarred melee | 254,655 | `vsm-st` |
-| Void-Scarred ranged | 230,759 | `vsr-st` |
-| Annihilator ranged | 219,690 | `anr-st` |
-| Annihilator melee | 202,024 | `anm-st` |
+| Void-Scarred melee | 254,575 | `vsm-st` |
+| Void-Scarred ranged | 230,813 | `vsr-st` |
+| Annihilator ranged | 219,739 | `anr-st` |
+| Annihilator melee | 201,998 | `anm-st` |
 
-## 5 targets ([300s lust](https://mimiron.raidbots.com/simbot/report/jqCTLNB7fvTvMo2ZhsH1Qk), [60s no lust](https://mimiron.raidbots.com/simbot/report/dU61xQPa8d8odeHrhsZApN))
+## 5 targets ([300s lust](https://mimiron.raidbots.com/simbot/report/sX81ww1MnGxDPNdbhn5ibW), [60s no lust](https://mimiron.raidbots.com/simbot/report/nWSKAoQEus9SrZuzmGWdbw))
 
 | Build | 300s | 60s | Hash |
 |---|---|---|---|
-| Void-Scarred melee | 694,596 | 745,826 | `vsm-aoe` |
-| Annihilator ranged | 651,735 | 683,636 | `anr-aoe` |
-| Void-Scarred ranged | 603,568 | 615,421 | `vsr-aoe` |
-| Annihilator melee | 582,085 | 608,211 | `anm-aoe` |
+| Void-Scarred melee | 699,452 | 750,289 | `vsm-aoe` |
+| Annihilator ranged | 651,501 | 683,380 | `anr-aoe` |
+| Void-Scarred ranged | 603,733 | 615,653 | `vsr-aoe` |
+| Annihilator melee | 582,102 | 608,317 | `anm-aoe` |
 
-## Dungeon route — Temple of Sethraliss ([report](https://mimiron.raidbots.com/simbot/report/nMvPTYxNba9wwX9JMHDidB))
+## Dungeon route — Temple of Sethraliss ([report](https://mimiron.raidbots.com/simbot/report/jYCieZNoac1Eh8dop4CZo2))
 
 `temple-of-sethraliss-route.simc` is a full Temple of Sethraliss M+ route with real pull
 composition, chaining, and mob health from 12.1 PTR logs, scaled for a single actor. Run it with:
@@ -33,14 +33,14 @@ Each archetype has a dungeon-route loadout (`-dung`).
 
 | Build | DPS | Hash |
 |---|---|---|
-| Void-Scarred melee | 451,754 | `vsm-dung` |
-| Annihilator ranged | 421,810 | `anr-dung` |
-| Void-Scarred ranged | 415,813 | `vsr-dung` |
-| Annihilator melee | 386,050 | `anm-dung` |
-| Void-Scarred melee, ST build | 363,661 | `vsm-st` |
-| Annihilator ranged, ST build | 333,664 | `anr-st` |
-| Void-Scarred ranged, ST build | 304,380 | `vsr-st` |
-| Annihilator melee, ST build | 296,398 | `anm-st` |
+| Void-Scarred melee | 452,089 | `vsm-dung` |
+| Annihilator ranged | 421,786 | `anr-dung` |
+| Void-Scarred ranged | 415,872 | `vsr-dung` |
+| Annihilator melee | 386,291 | `anm-dung` |
+| Void-Scarred melee, ST build | 363,631 | `vsm-st` |
+| Annihilator ranged, ST build | 333,870 | `anr-st` |
+| Void-Scarred ranged, ST build | 304,236 | `vsr-st` |
+| Annihilator melee, ST build | 296,484 | `anm-st` |
 
 ## Hashes
 
@@ -49,15 +49,15 @@ Each row links a single-build report so you can inspect that build's gear and ta
 
 | Key | Hash | Report |
 |---|---|---|
-| vsm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMjBmBAAAAAAYZGjBzAAAAAAAAwMmhxMzMjZmZGzsNzYsptFAEwAMjZmZbmZa2mZbmZMjBA` | [report](https://mimiron.raidbots.com/simbot/report/2AhYbj2YfwvLofLG9M2s9H) |
-| vsm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMjBmBAAAAAAYZGjBzAAAAAAAAwMmhZmZmZmZmZGzsNzYsplFAEwAgZmZbmZa2mZbmZYmBA` | [report](https://mimiron.raidbots.com/simbot/report/un74DDJ8EKzA7J3hZReVnK) |
-| vsm-dung | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMjBmBAAAAAAYZGjBzAAAAAAAAwMmh5BmZmZmZmZGzsNzYsptFAEwAYMzMbzMTz2MbzMDzMA` | [report](https://mimiron.raidbots.com/simbot/report/oJGWpy2mkY1qeXkcaC3Gs8) |
-| vsr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmlZGjNZBABAYmZmZ2mZmmtZ2mZGgB` | [report](https://mimiron.raidbots.com/simbot/report/qqAdGu2UfAYp71MH5Lk99t) |
-| vsr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWmxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMPwMzMzMzMzYmtZGjNttAgAAMjZmZZmZa2mZzYwwA` | [report](https://mimiron.raidbots.com/simbot/report/2oLpdBGo8QNSt8CNNocGXH) |
-| anr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmFzYsILMzMzs12MzMAmZGACMzMYYA` | [report](https://mimiron.raidbots.com/simbot/report/oeFN7ecKgC5beBFwYx92sq) |
-| anr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2mxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMzMzMzMzMDzsYGjFZhZmZmt2mZmBwwAAwMGMmB` | [report](https://mimiron.raidbots.com/simbot/report/bLjNNaq2SXo3uWQuCoG6nc) |
-| anm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMmZmZMzMDzsMzYsolFmZmZ2abmZmBYmZAIwMDDjPA` | [report](https://mimiron.raidbots.com/simbot/report/k9LwSqJ1ye97FHWbPtAgT9) |
-| anm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMDzsMzYsILMzMzs12MzMDwDYGACYMGzMfA` | [report](https://mimiron.raidbots.com/simbot/report/a8vU9JVroQX73H6GfKwf5b) |
+| vsm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMjBmBAAAAAAYZGjBzAAAAAAAAwMmhxMzMjZmZGzsNzYsptFAEwAMjZmZbmZa2mZbmZMjBA` | [report](https://mimiron.raidbots.com/simbot/report/vxArgwSsRmagAxvbWenC6r) |
+| vsm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMjBmBAAAAAAYZGjBzAAAAAAAAwMmhZmZmZmZmZGzsNzYsplFAEwAgZmZbmZa2mZbmZYmBA` | [report](https://mimiron.raidbots.com/simbot/report/ouXyWXHmqGBpZbGZgvT7fY) |
+| vsm-dung | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMjBmBAAAAAAYZGjBzAAAAAAAAwMmh5BmZmZmZmZGzsNzYsptFAEwAYMzMbzMTz2MbzMDzMA` | [report](https://mimiron.raidbots.com/simbot/report/q1D76K2JvihDZF5xtemBSV) |
+| vsr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmlZGjNZBABAYmZmZ2mZmmtZ2mZGgB` | [report](https://mimiron.raidbots.com/simbot/report/5YT9gFCXW5wmRJwMHqTKdj) |
+| vsr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWmxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMPwMzMzMzMzYmtZGjNttAgAAMjZmZZmZa2mZzYwwA` | [report](https://mimiron.raidbots.com/simbot/report/rQBi1b6C9rHwYtzuJGmGSN) |
+| anr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZYmFzYsILMzMzs12MzMAmZGACMzMYYA` | [report](https://mimiron.raidbots.com/simbot/report/26epdqkwEBFmrJpsaKsHRx) |
+| anr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2mxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMzMzMzMzMDzsYGjFZhZmZmt2mZmBwwAAwMGMmB` | [report](https://mimiron.raidbots.com/simbot/report/wpjnjkfn7KBqraMKgZRPi6) |
+| anm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMmZmZMzMDzsMzYsolFmZmZ2abmZmBYmZAIwMDDjPA` | [report](https://mimiron.raidbots.com/simbot/report/48qbaBkzh4hfTVzFu2ohn8) |
+| anm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMDzsMzYsILMzMzs12MzMDwDYGACYMGzMfA` | [report](https://mimiron.raidbots.com/simbot/report/6EtqBYrS3MaCSTDdE9uKQk) |
 
 ## Contributing
 
