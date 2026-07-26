@@ -89,12 +89,14 @@ actions+=/run_action_list,name=annihilator_ranged,if=hero_tree.annihilator
 actions+=/run_action_list,name=voidscarred_ranged,if=hero_tree.voidscarred&!talent.the_hunt
 actions+=/run_action_list,name=voidscarred_melee,if=hero_tree.voidscarred&talent.the_hunt
 
-actions.annihilator_ranged=metamorphosis,if=buff.eradicate.up|!talent.eradicate|active_enemies=1|talent.voidfall
+actions.annihilator_ranged=pick_up_fragment,mode=nearest,type=all,use_off_gcd=1,line_cd=0.6,if=!buff.metamorphosis.up&!buff.void_metamorphosis_stack.at_max_stacks&buff.void_metamorphosis_stack.stack>=buff.void_metamorphosis_stack.max_stack-1-(active_enemies>1)
+actions.annihilator_ranged+=/metamorphosis
 actions.annihilator_ranged+=/devour,if=buff.soulburst.up&active_enemies=1
 actions.annihilator_ranged+=/consume,if=buff.soulburst.up
 actions.annihilator_ranged+=/void_ray,if=talent.eradicate&active_enemies>1&!buff.eradicate.up
 actions.annihilator_ranged+=/collapsing_star,if=active_enemies>1&buff.collapsing_star_stacking.stack>=30
-actions.annihilator_ranged+=/collapsing_star,if=active_enemies=1&(apex.1|buff.dark_matter.up|talent.star_fragments)&buff.collapsing_star_stacking.stack>=35
+actions.annihilator_ranged+=/call_action_list,name=reaps,if=buff.metamorphosis.up&active_enemies>1&action.reap.souls_consumed>=4
+actions.annihilator_ranged+=/collapsing_star,if=active_enemies=1&buff.collapsing_star_stacking.stack>=35
 actions.annihilator_ranged+=/voidblade,if=talent.devourers_bite&buff.metamorphosis.up
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=action.reap.souls_consumed>=4&active_enemies<5
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=fight_remains<=6&action.reap.souls_consumed>=1
