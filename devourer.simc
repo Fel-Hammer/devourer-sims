@@ -70,8 +70,8 @@ off_hand=baleful_hexblade,id=268211,ilevel=344,enchant_id=8041
 actions.precombat=snapshot_stats
 actions.precombat+=/variable,name=trinket_1_buffs,value=trinket.1.has_buff.intellect|trinket.1.has_buff.mastery|trinket.1.has_buff.versatility|trinket.1.has_buff.haste|trinket.1.has_buff.crit
 actions.precombat+=/variable,name=trinket_2_buffs,value=trinket.2.has_buff.intellect|trinket.2.has_buff.mastery|trinket.2.has_buff.versatility|trinket.2.has_buff.haste|trinket.2.has_buff.crit
-actions.precombat+=/variable,name=trinket_1_manual,value=0
-actions.precombat+=/variable,name=trinket_2_manual,value=0
+actions.precombat+=/variable,name=trinket_1_manual,value=trinket.1.is.font_of_venomous_rage
+actions.precombat+=/variable,name=trinket_2_manual,value=trinket.2.is.font_of_venomous_rage
 actions.precombat+=/variable,name=trinket_1_ogcd_cast,value=0
 actions.precombat+=/variable,name=trinket_2_ogcd_cast,value=0
 actions.precombat+=/variable,name=trinket_1_exclude,value=0
@@ -229,6 +229,8 @@ actions.cooldowns+=/use_item,slot=trinket1,if=buff.metamorphosis.up&(!trinket.2.
 actions.cooldowns+=/use_item,slot=trinket2,if=buff.metamorphosis.up&(!trinket.1.has_cooldown|trinket.1.cooldown.remains|variable.trinket_priority=2|variable.trinket_1_exclude)&!variable.trinket_2_manual|trinket.2.proc.any_dps.duration>=fight_remains|fight_remains<=trinket.2.buff.any_dps.duration
 actions.cooldowns+=/use_item,use_off_gcd=1,slot=trinket1,if=!variable.trinket_1_buffs&!variable.trinket_1_manual&(variable.damage_trinket_priority=1|trinket.2.cooldown.remains|trinket.2.is.spymasters_web|trinket.2.cooldown.duration=0)&gcd.remains>0.1
 actions.cooldowns+=/use_item,use_off_gcd=1,slot=trinket2,if=!variable.trinket_2_buffs&!variable.trinket_2_manual&(variable.damage_trinket_priority=2|trinket.1.cooldown.remains|trinket.1.is.spymasters_web|trinket.1.cooldown.duration=0)&gcd.remains>0.1
+actions.cooldowns+=/use_item,use_off_gcd=1,slot=trinket1,if=trinket.1.is.font_of_venomous_rage&!buff.metamorphosis.up&buff.rolling_torment.up&gcd.remains>0.1
+actions.cooldowns+=/use_item,use_off_gcd=1,slot=trinket2,if=trinket.2.is.font_of_venomous_rage&!buff.metamorphosis.up&buff.rolling_torment.up&gcd.remains>0.1
 actions.cooldowns+=/use_item,slot=trinket1,if=!variable.trinket_1_buffs&!variable.trinket_1_manual&(variable.damage_trinket_priority=1|trinket.2.cooldown.remains|trinket.2.is.spymasters_web|trinket.2.cooldown.duration=0)&!variable.trinket_1_ogcd_cast
 actions.cooldowns+=/use_item,slot=trinket2,if=!variable.trinket_2_buffs&!variable.trinket_2_manual&(variable.damage_trinket_priority=2|trinket.1.cooldown.remains|trinket.1.is.spymasters_web|trinket.1.cooldown.duration=0)&!variable.trinket_2_ogcd_cast
 
