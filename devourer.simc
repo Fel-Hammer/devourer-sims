@@ -181,9 +181,10 @@ actions.vsm_st+=/devour
 actions.vsm_st+=/consume
 
 actions.vsm_meta=soul_immolation,if=variable.void_ray_count>=2&active_dot.soul_immolation=0&fury<void_metamorphosis_base_drain_ps
-actions.vsm_meta+=/throw_glaive,if=variable.void_ray_count>=2&fury>void_metamorphosis_base_drain_ps*gcd.max*2
+actions.vsm_meta+=/throw_glaive,if=variable.void_ray_count>=2&fury>void_metamorphosis_base_drain_ps*gcd.max*2&cooldown.void_ray.remains>gcd.max
 actions.vsm_meta+=/wait,sec=0.05,if=variable.void_ray_count>=2
-actions.vsm_meta+=/vengeful_retreat,if=buff.voidstep.up
+actions.vsm_meta+=/vengeful_retreat,use_off_gcd=1,if=buff.voidstep.up
+actions.vsm_meta+=/void_ray,if=variable.void_ray_count=0&!talent.eradicate
 actions.vsm_meta+=/eradicate,if=(action.reap.souls_consumed>=10|buff.moment_of_craving.remains<gcd.max|cooldown.void_ray.remains<gcd.max)&!buff.soulburst.up
 actions.vsm_meta+=/void_ray,if=talent.eradicate&!buff.eradicate.up
 actions.vsm_meta+=/reapers_toll,if=buff.hungering_slash.remains<gcd.max*2
@@ -194,7 +195,7 @@ actions.vsm_meta+=/predators_wake,if=!buff.hungering_slash.up
 actions.vsm_meta+=/eradicate,if=action.reap.souls_consumed>=8&!buff.soulburst.up
 actions.vsm_meta+=/cull,if=action.reap.souls_consumed>=4&!buff.soulburst.up
 actions.vsm_meta+=/void_ray
-actions.vsm_meta+=/soul_immolation,if=active_dot.soul_immolation=0&fury<void_metamorphosis_base_drain_ps
+actions.vsm_meta+=/soul_immolation,if=active_dot.soul_immolation=0&fury<void_metamorphosis_base_drain_ps&cooldown.void_ray.remains>gcd.max
 actions.vsm_meta+=/devour,if=fury<void_metamorphosis_base_drain_ps*(cooldown.void_ray.remains+3)
 
 
