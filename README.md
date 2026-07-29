@@ -1,6 +1,6 @@
 SimC profile for Devourer Demon Hunter, Midnight 12.1 PTR.
 
-Two gear sets in `devourer.simc` — Void-Scarred (default) and Annihilator (commented). Each archetype
+Two gear sets in `devourer.simc`, Void-Scarred (default) and Annihilator (commented). Each archetype
 wears its own set. All sims run at target_error 0.05. Group reports carry every build, including the
 dungeon-route (`-dung`) loadouts.
 
