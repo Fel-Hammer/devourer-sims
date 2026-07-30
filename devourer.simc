@@ -32,7 +32,7 @@ chest=war_trial_vestments,id=251159,ilevel=334,enchant_id=7987
 wrist=silvermoon_agents_deflectors,id=244576,ilevel=331,bonus_id=8960/12214/12384/13751/13836/9627/13668,gem_id=240898,crafted_stats=32/36
 hands=abyssal_doomhounds_studded_gauntlets,id=271538,ilevel=334
 waist=sash_of_the_forlorn_vessel,id=268256,ilevel=344,bonus_id=13668,gem_id=240898
-legs=abyssal_doomhounds_legwraps,id=271536,ilevel=334,enchant_id=7935
+legs=coiled_hex_legguards,id=268225,ilevel=344,enchant_id=7935
 feet=silvermoon_agents_sneakers,id=244569,ilevel=331,bonus_id=8960/12214/12384/13751/13836/9627,crafted_stats=36/49,enchant_id=7993
 finger1=charged_sandstone_band,id=158366,ilevel=334,bonus_id=13750,gem_id=240898,enchant_id=7967
 finger2=vile_alchemists_band,id=268249,ilevel=334,bonus_id=13668,gem_id=240898,enchant_id=7967
@@ -58,7 +58,7 @@ off_hand=baleful_hexblade,id=268211,ilevel=344,enchant_id=8041
 #wrist=silvermoon_agents_deflectors,id=244576,ilevel=331,bonus_id=8960/12214/12384/13751/13836/9627/13668,gem_id=240892,crafted_stats=36/49
 #hands=ruthless_slaughtergrips,id=268234,ilevel=334
 #waist=sash_of_the_forlorn_vessel,id=268256,ilevel=344,bonus_id=13668,gem_id=240892
-#legs=breeches_of_deft_deals,id=251130,ilevel=334,enchant_id=7935
+#legs=coiled_hex_legguards,id=268225,ilevel=344,enchant_id=7935
 #feet=silvermoon_agents_sneakers,id=244569,ilevel=331,bonus_id=8960/12214/12384/13751/13836/9627,crafted_stats=36/49,enchant_id=7993
 #finger1=vile_alchemists_band,id=268249,ilevel=334,bonus_id=13668,gem_id=240892,enchant_id=7967
 #finger2=sickening_signet_of_atroxus,id=252258,ilevel=334,bonus_id=13668,gem_id=240892,enchant_id=7967
@@ -180,7 +180,8 @@ actions.vsm_st+=/soul_immolation,if=active_dot.soul_immolation=0&!buff.metamorph
 actions.vsm_st+=/devour
 actions.vsm_st+=/consume
 
-actions.vsm_meta=soul_immolation,if=variable.void_ray_count>=2&active_dot.soul_immolation=0&fury<void_metamorphosis_base_drain_ps
+actions.vsm_meta=soul_immolation,if=variable.void_ray_count>=2&active_dot.soul_immolation=0&fury<=gcd.max*(void_metamorphosis_base_drain_ps-6)-6
+actions.vsm_meta+=/pick_up_fragment,mode=nearest,type=all,use_off_gcd=1,line_cd=0.35,if=variable.void_ray_count=1&cooldown.void_ray.remains<gcd.max*2&fury<void_metamorphosis_base_drain_ps*cooldown.void_ray.remains
 actions.vsm_meta+=/throw_glaive,if=variable.void_ray_count>=2&fury>void_metamorphosis_base_drain_ps*gcd.max*2&cooldown.void_ray.remains>gcd.max
 actions.vsm_meta+=/wait,sec=0.05,if=variable.void_ray_count>=2
 actions.vsm_meta+=/vengeful_retreat,use_off_gcd=1,if=buff.voidstep.up
@@ -195,7 +196,7 @@ actions.vsm_meta+=/predators_wake,if=!buff.hungering_slash.up
 actions.vsm_meta+=/eradicate,if=action.reap.souls_consumed>=8&!buff.soulburst.up
 actions.vsm_meta+=/cull,if=action.reap.souls_consumed>=4&!buff.soulburst.up
 actions.vsm_meta+=/void_ray
-actions.vsm_meta+=/soul_immolation,if=active_dot.soul_immolation=0&fury<void_metamorphosis_base_drain_ps&cooldown.void_ray.remains>gcd.max
+actions.vsm_meta+=/soul_immolation,if=active_dot.soul_immolation=0&fury<=gcd.max*(void_metamorphosis_base_drain_ps-6)-6&cooldown.void_ray.remains>gcd.max
 actions.vsm_meta+=/devour,if=fury<void_metamorphosis_base_drain_ps*(cooldown.void_ray.remains+3)
 
 
@@ -226,8 +227,8 @@ actions.variables+=/variable,name=last_ray_mark,op=set,value=action.void_ray.las
 
 actions.cooldowns=invoke_external_buff,name=power_infusion,if=buff.metamorphosis.up&!buff.power_infusion.up
 actions.cooldowns+=/potion,if=buff.metamorphosis.up|fight_remains<=30
-actions.cooldowns+=/use_item,slot=trinket1,if=buff.metamorphosis.up&(!trinket.2.has_cooldown|trinket.2.cooldown.remains|variable.trinket_priority=1|variable.trinket_2_exclude)&!variable.trinket_1_manual|trinket.1.proc.any_dps.duration>=fight_remains|fight_remains<=trinket.1.buff.any_dps.duration
-actions.cooldowns+=/use_item,slot=trinket2,if=buff.metamorphosis.up&(!trinket.1.has_cooldown|trinket.1.cooldown.remains|variable.trinket_priority=2|variable.trinket_1_exclude)&!variable.trinket_2_manual|trinket.2.proc.any_dps.duration>=fight_remains|fight_remains<=trinket.2.buff.any_dps.duration
+actions.cooldowns+=/use_item,slot=trinket1,if=buff.metamorphosis.up&(variable.void_ray_count=0|hero_tree.annihilator)&(!trinket.2.has_cooldown|trinket.2.cooldown.remains|variable.trinket_priority=1|variable.trinket_2_exclude)&!variable.trinket_1_manual|trinket.1.proc.any_dps.duration>=fight_remains|fight_remains<=trinket.1.buff.any_dps.duration
+actions.cooldowns+=/use_item,slot=trinket2,if=buff.metamorphosis.up&(variable.void_ray_count=0|hero_tree.annihilator)&(!trinket.1.has_cooldown|trinket.1.cooldown.remains|variable.trinket_priority=2|variable.trinket_1_exclude)&!variable.trinket_2_manual|trinket.2.proc.any_dps.duration>=fight_remains|fight_remains<=trinket.2.buff.any_dps.duration
 actions.cooldowns+=/use_item,use_off_gcd=1,slot=trinket1,if=!variable.trinket_1_buffs&!variable.trinket_1_manual&(variable.damage_trinket_priority=1|trinket.2.cooldown.remains|trinket.2.is.spymasters_web|trinket.2.cooldown.duration=0)&gcd.remains>0.1
 actions.cooldowns+=/use_item,use_off_gcd=1,slot=trinket2,if=!variable.trinket_2_buffs&!variable.trinket_2_manual&(variable.damage_trinket_priority=2|trinket.1.cooldown.remains|trinket.1.is.spymasters_web|trinket.1.cooldown.duration=0)&gcd.remains>0.1
 actions.cooldowns+=/use_item,use_off_gcd=1,slot=trinket1,if=trinket.1.is.font_of_venomous_rage&!buff.metamorphosis.up&buff.rolling_torment.up&gcd.remains>0.1
