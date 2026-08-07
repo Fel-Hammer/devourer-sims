@@ -118,9 +118,9 @@ actions.annihilator_melee+=/the_hunt,if=buff.metamorphosis.up
 actions.annihilator_melee+=/hungering_slash,if=!buff.metamorphosis.up&soul_fragments<=8
 actions.annihilator_melee+=/reapers_toll,if=!buff.metamorphosis.up&soul_fragments<=8
 actions.annihilator_melee+=/vengeful_retreat,if=talent.devourers_bite&buff.voidstep.up
-actions.annihilator_melee+=/hungering_slash,if=talent.devourers_bite&active_enemies>1
+actions.annihilator_melee+=/hungering_slash,if=active_enemies>1
 actions.annihilator_melee+=/reapers_toll,if=talent.devourers_bite&(buff.voidsurge_reapers_toll.up|active_enemies>1)
-actions.annihilator_melee+=/voidblade,if=talent.devourers_bite&buff.metamorphosis.up
+actions.annihilator_melee+=/voidblade,if=buff.metamorphosis.up
 actions.annihilator_melee+=/voidblade,if=!buff.metamorphosis.up&(active_enemies=1|!talent.eradicate&active_enemies<4)
 actions.annihilator_melee+=/call_action_list,name=reaps,if=active_enemies=1&action.reap.souls_consumed>=4
 actions.annihilator_melee+=/call_action_list,name=reaps,if=!talent.eradicate&(active_enemies>1&variable.wont_overcap_cstar&set_bonus.midnight_season_2_4pc&(buff.voidfall_spending.stack>=3&prev_gcd.1.void_ray|buff.voidfall_spending.react>=3))
