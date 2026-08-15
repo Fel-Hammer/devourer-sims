@@ -182,7 +182,7 @@ actions.vsm_meta+=/pick_up_fragment,mode=nearest,type=all,use_off_gcd=1,line_cd=
 actions.vsm_meta+=/wait,sec=0.05,if=variable.void_ray_count>=2
 actions.vsm_meta+=/vengeful_retreat,use_off_gcd=1,if=buff.voidstep.up
 actions.vsm_meta+=/void_ray,if=variable.void_ray_count=0&!talent.eradicate
-actions.vsm_meta+=/eradicate,if=(action.reap.souls_consumed>=12|buff.moment_of_craving.remains<gcd.max|cooldown.void_ray.remains<gcd.max)&!buff.soulburst.up
+actions.vsm_meta+=/eradicate,if=(buff.moment_of_craving.remains<gcd.max|cooldown.void_ray.remains<gcd.max)&!buff.soulburst.up
 actions.vsm_meta+=/void_ray,if=talent.eradicate&!buff.eradicate.up
 actions.vsm_meta+=/reapers_toll,if=buff.hungering_slash.remains<gcd.max*2
 actions.vsm_meta+=/devour,if=buff.soulburst.up
@@ -202,7 +202,6 @@ actions.vsm_out+=/voidblade,if=prev_gcd.1.void_ray
 actions.vsm_out+=/metamorphosis,if=buff.eradicate.up|!talent.eradicate|fight_remains<15
 actions.vsm_out+=/the_hunt
 actions.vsm_out+=/consume,if=buff.soulburst.up&buff.soulburst.remains<gcd.max
-actions.vsm_out+=/eradicate,if=action.reap.souls_consumed>=14&buff.void_metamorphosis_stack.stack<buff.void_metamorphosis_stack.max_stack-3&!buff.soulburst.up
 actions.vsm_out+=/void_ray,if=talent.eradicate&!buff.eradicate.up
 actions.vsm_out+=/hungering_slash
 actions.vsm_out+=/soul_immolation,if=active_dot.soul_immolation=0
