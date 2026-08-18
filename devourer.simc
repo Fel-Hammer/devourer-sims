@@ -1,6 +1,6 @@
-# Devourer Demon Hunter, Midnight 12.1 PTR
+# Devourer Demon Hunter, Midnight 12.1
 
-ptr=1
+ptr=0
 desired_targets=1
 max_time=300
 override.bloodlust=1
@@ -100,7 +100,7 @@ actions.annihilator_ranged+=/call_action_list,name=reaps,if=active_enemies=1&!bu
 actions.annihilator_ranged+=/collapsing_star,if=active_enemies=1
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=active_enemies=1&action.reap.souls_consumed>=4
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=fight_remains<=6&action.reap.souls_consumed>=1
-actions.annihilator_ranged+=/call_action_list,name=reaps,if=active_enemies>1&buff.eradicate.up
+actions.annihilator_ranged+=/call_action_list,name=reaps,if=active_enemies>1&buff.eradicate.up&action.reap.souls_consumed>=4+6*buff.moment_of_craving.up
 actions.annihilator_ranged+=/void_ray,if=!buff.eradicate.up|!buff.moment_of_craving.up|!set_bonus.midnight_season_2_4pc
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=(!buff.eradicate.up|active_enemies=1)&(buff.voidfall_spending.stack>=3&prev_gcd.1.void_ray|buff.voidfall_spending.react>=3)
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=buff.metamorphosis.up&talent.collapsing_star&buff.collapsing_star_stacking.stack+action.reap.souls_consumed>=30&variable.wont_overcap_cstar&void_metamorphosis_base_drain_ps>35&action.reap.souls_consumed>=4&variable.wont_drop_meta
