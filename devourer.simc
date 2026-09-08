@@ -95,9 +95,9 @@ actions.annihilator_ranged+=/metamorphosis
 actions.annihilator_ranged+=/devour,if=buff.soulburst.up&active_enemies=1
 actions.annihilator_ranged+=/consume,if=buff.soulburst.up
 actions.annihilator_ranged+=/void_ray,if=talent.eradicate&active_enemies>1&!buff.eradicate.up
-actions.annihilator_ranged+=/collapsing_star,if=active_enemies>1&buff.collapsing_star_stacking.stack>=30
+actions.annihilator_ranged+=/collapsing_star,if=active_enemies>1
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=active_enemies=1&!buff.metamorphosis.up&action.reap.souls_consumed>=4&variable.wont_drop_meta
-actions.annihilator_ranged+=/collapsing_star,if=active_enemies=1
+actions.annihilator_ranged+=/collapsing_star,if=active_enemies=1&cooldown.void_ray.remains
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=active_enemies=1&action.reap.souls_consumed>=4
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=fight_remains<=6&action.reap.souls_consumed>=1
 actions.annihilator_ranged+=/call_action_list,name=reaps,if=active_enemies>1&buff.eradicate.up&action.reap.souls_consumed>=4+6*buff.moment_of_craving.up
