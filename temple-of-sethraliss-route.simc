@@ -13,6 +13,7 @@ override.bloodlust=0
 enemy=DungeonRoute_TempleOfSethraliss
 enemy_health=999999
 dungeon_route_smart_targeting=1
+optimal_raid=1
 raid_events=/invulnerable,cooldown=6000,duration=6000,retarget=1
 # entrance pack A
 raid_events+=/pull,pull=01,bloodlust=1,delay=010,enemies="shrouded-fang_1":4808975:Beast|"shrouded-fang_2":4808975:Beast|"shrouded-fang_3":4808975:Beast|"sandswept-hunter_1":5289873|"sandswept-hunter_2":5289873|"sandswept-hunter_3":5289873|"barbed-krolusk_1":3847180:Beast|"barbed-krolusk_2":3847180:Beast|"rogue-krolusk_1":96180:Beast|"rogue-krolusk_2":96180:Beast|"storm-adept_1":4328078|"sandfury-stonefist_1":8656155
