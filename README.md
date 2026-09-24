@@ -4,39 +4,36 @@ SimC profile for Devourer Demon Hunter, Midnight 12.1.5 PTR.
 out below it. Each archetype wears its own set. Everything here is simmed at target_error 0.05, and
 the group reports include every build, dungeon-route (`-dung`) loadouts included.
 
-All numbers include the 12.1.5 PTR changes SimC's own data does not carry yet, applied as the
-`override.spell_data` lines at the top of `devourer.simc`.
-
-## Single target (300s, lust) ([report](https://mimiron.raidbots.com/simbot/report/s7HycWue3wz8vHUdVthrtL))
+## Single target (300s, lust) ([report](https://mimiron.raidbots.com/simbot/report/hCLsT9Mjt7sJLcigFeBPRB))
 
 | Build | DPS | Hash |
 |---|---|---|
-| Void-Scarred melee | 271,571 | `vsm-st` |
-| Annihilator ranged | 249,335 | `anr-st` |
+| Void-Scarred | 278,184 | `voidscarred-st` |
+| Annihilator | 253,652 | `annihilator-st` |
 
-## 3 targets (300s, lust) ([report](https://mimiron.raidbots.com/simbot/report/6W2NBsHWqcfq8zJhwGazu9))
+## 3 targets (300s, lust) ([report](https://mimiron.raidbots.com/simbot/report/dRZ54Rafv8xG4Ynn8noacP))
 
 | Build | DPS | Hash |
 |---|---|---|
-| Void-Scarred melee | 523,044 | `vsm-aoe` |
-| Annihilator ranged | 507,584 | `anr-aoe` |
-| Void-Scarred melee, ST build | 444,395 | `vsm-st` |
+| Void-Scarred | 536,599 | `voidscarred-aoe` |
+| Annihilator | 523,146 | `annihilator-aoe` |
+| Void-Scarred, ST build | 456,739 | `voidscarred-st` |
 
-## 5 targets ([300s lust](https://mimiron.raidbots.com/simbot/report/bkQs5PLeFsaMumfVBSD8kM), [60s no lust](https://mimiron.raidbots.com/simbot/report/7p6xYRTSJoYqgzXsYSZm6i))
+## 5 targets ([300s lust](https://mimiron.raidbots.com/simbot/report/htU8QoKfj42vEWaHhmwpZY), [60s no lust](https://mimiron.raidbots.com/simbot/report/6k1dGEU11GyvJDqp29raN4))
 
 | Build | 300s | 60s | Hash |
 |---|---|---|---|
-| Void-Scarred melee | 726,880 | 794,374 | `vsm-aoe` |
-| Annihilator ranged | 695,516 | 730,400 | `anr-aoe` |
+| Void-Scarred | 747,076 | 805,387 | `voidscarred-aoe` |
+| Annihilator | 721,372 | 747,639 | `annihilator-aoe` |
 
-## 10 targets (60s, no lust) ([report](https://mimiron.raidbots.com/simbot/report/oe2RW22ozS2dvhbcyH6SD5))
+## 10 targets (60s, no lust) ([report](https://mimiron.raidbots.com/simbot/report/9Yw7DGmq3r8k4a8PPJquwQ))
 
 | Build | DPS | Hash |
 |---|---|---|
-| Void-Scarred melee | 1,248,184 | `vsm-aoe` |
-| Annihilator ranged | 1,195,060 | `anr-aoe` |
+| Void-Scarred | 1,279,849 | `voidscarred-aoe` |
+| Annihilator | 1,243,933 | `annihilator-aoe` |
 
-## Dungeon route: Temple of Sethraliss ([report](https://mimiron.raidbots.com/simbot/report/wCsv1kMQ5RjJnzGBVHxRXr))
+## Dungeon route: Temple of Sethraliss ([report](https://mimiron.raidbots.com/simbot/report/gPQxB4s95JYhbTQ7b78dvV))
 
 `temple-of-sethraliss-route.simc` walks a Temple of Sethraliss M+ route end to end. The pulls,
 the chaining and the mob health all come off 12.1 PTR logs, scaled down to one actor, with health
@@ -48,23 +45,23 @@ Each archetype has its own route loadout (`-dung`).
 
 | Build | DPS | Hash |
 |---|---|---|
-| Void-Scarred melee | 502,453 | `vsm-dung` |
-| Annihilator ranged | 497,360 | `anr-dung` |
-| Void-Scarred melee, ST build | 437,013 | `vsm-st` |
-| Annihilator ranged, ST build | 432,412 | `anr-st` |
+| Void-Scarred | 604,439 | `voidscarred-dung` |
+| Annihilator | 599,755 | `annihilator-dung` |
+| Void-Scarred, ST build | 531,709 | `voidscarred-st` |
+| Annihilator, ST build | 530,248 | `annihilator-st` |
 
 ## Hashes
 
 Each row links a report for that build on its own, so you can check its gear and talents.
-`anr-dung` reuses the identity's `-aoe` hash for now.
+`annihilator-dung` reuses the identity's `-aoe` hash for now.
 
 | Key | Hash | Report |
 |---|---|---|
-| vsm-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMzMwMAAAAAAALzYMYGAAAAAAAAmxMMmZmZYmZYmlZGjNttAgAGAjZmZbmZa2mZbmhxMGA` | [report](https://mimiron.raidbots.com/simbot/report/sp3Vws7hQcrFddSrhJ1Khq) |
-| vsm-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMzMwMAAAAAAALzYMYGAAAAAAAAmxMMzMzMzYmZYmlZGjNtsAgAGAMzMLzMTz2MbzYwwA` | [report](https://mimiron.raidbots.com/simbot/report/8khSfcqjwTnNKnJZHPhQBM) |
-| vsm-dung | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMzMwMAAAAAAALzYMYGAAAAAAAAmxMMmZmZGzMDzsMzYsplFAEwAYMzMLzMTz2MbzMwMGA` | [report](https://mimiron.raidbots.com/simbot/report/6s8UD7dNnptWyM1PxZvZid) |
-| anr-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZGzsYGjFtswMzMzWbzMzAYmZAIwDMGMMA` | [report](https://mimiron.raidbots.com/simbot/report/sJ7Ag1fZ3T8eDfmuR9Z3Cy) |
-| anr-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMDzsYGjFZhZmZmt2mZmBwYGAC8AjZYMD` | [report](https://mimiron.raidbots.com/simbot/report/ir6WS8uczGjbSBdnaLvnfU) |
+| voidscarred-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMzMwMAAAAAAALzYMYGAAAAAAAAmxMMmZmZYmZYmlZGjNttAgAGAjZmZbmZa2mZbmhxMGA` | [report](https://mimiron.raidbots.com/simbot/report/qFciF6TvEjkiK31PpihHkJ) |
+| voidscarred-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMzMwMAAAAAAALzYMYGAAAAAAAAmxMMzMzMzYmZYmlZGjNtsAgAGAMzMLzMTz2MbzYwwA` | [report](https://mimiron.raidbots.com/simbot/report/wq1UhnGiQ5tnUCjsz4rLrt) |
+| voidscarred-dung | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMzMwMAAAAAAALzYMYGAAAAAAAAmxMMmZmZGzMDzsMzYsplFAEwAYMzMLzMTz2MbzMwMGA` | [report](https://mimiron.raidbots.com/simbot/report/bNeL3Lp6mLKmbx5tJCvzC8) |
+| annihilator-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZGzsYGjFtswMzMzWbzMzAYmZAIwDMGMMA` | [report](https://mimiron.raidbots.com/simbot/report/79bdMhwDEe9fvdutDGUpYw) |
+| annihilator-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMDzsYGjFZhZmZmt2mZmBwYGAC8AjZYMD` | [report](https://mimiron.raidbots.com/simbot/report/fXW7MVk7x6vnScMxgtdQKq) |
 
 ## Contributing
 
