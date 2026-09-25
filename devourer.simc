@@ -122,6 +122,8 @@ actions.voidscarred_meta+=/eradicate,if=cooldown.void_ray.remains<gcd.max&!buff.
 actions.voidscarred_meta+=/void_ray,if=talent.eradicate&!buff.eradicate.up&(active_enemies>1|fury<30)
 actions.voidscarred_meta+=/reapers_toll,if=active_enemies>1&buff.hungering_slash.remains<gcd.max*2
 actions.voidscarred_meta+=/predators_wake,if=buff.collapsing_star.up
+actions.voidscarred_meta+=/reapers_toll,if=talent.voidrush&buff.collapsing_star.up&cooldown.voidblade.remains<gcd.max
+actions.voidscarred_meta+=/pierce_the_veil,if=talent.voidrush&buff.collapsing_star.up
 actions.voidscarred_meta+=/collapsing_star
 actions.voidscarred_meta+=/devour,if=buff.soulburst.up
 actions.voidscarred_meta+=/reapers_toll,if=soul_fragments<=8
