@@ -136,8 +136,8 @@ actions.voidscarred_out=pick_up_fragment,mode=nearest,type=all,use_off_gcd=1,lin
 actions.voidscarred_out+=/wait,sec=0.05,if=!buff.void_metamorphosis_stack.at_max_stacks&buff.void_metamorphosis_stack.stack>=buff.void_metamorphosis_stack.max_stack-1&(active_enemies=1&soul_fragments>=1|active_enemies>1&time-action.pick_up_fragment.last_used<1.5)
 actions.voidscarred_out+=/vengeful_retreat,use_off_gcd=1,if=buff.voidstep.up
 actions.voidscarred_out+=/consume,if=buff.soulburst.up&(active_enemies=1|talent.eradicate|buff.soulburst.remains<gcd.max)
-actions.voidscarred_out+=/call_action_list,name=voidscarred_hunt_entry,if=active_enemies=1&buff.void_metamorphosis_stack.at_max_stacks
-actions.voidscarred_out+=/voidblade,if=prev_gcd.1.void_ray&(active_enemies>1|!cooldown.the_hunt.ready)
+actions.voidscarred_out+=/call_action_list,name=voidscarred_hunt_entry,if=talent.the_hunt&active_enemies=1&buff.void_metamorphosis_stack.at_max_stacks
+actions.voidscarred_out+=/voidblade,if=prev_gcd.1.void_ray&(active_enemies>1|!talent.the_hunt|!cooldown.the_hunt.ready)
 actions.voidscarred_out+=/metamorphosis,if=buff.eradicate.up|!talent.eradicate|active_enemies=1|fight_remains<15
 actions.voidscarred_out+=/void_ray,if=talent.eradicate&active_enemies>1&!buff.eradicate.up
 actions.voidscarred_out+=/call_action_list,name=reaps,if=fury<100&fury+4*action.reap.souls_consumed+10*talent.scythes_embrace>=100&action.reap.souls_consumed>=1&!buff.soulburst.up

@@ -41,146 +41,146 @@
 <line x1="749.0" x2="749.0" y1="58" y2="494" stroke="#e3e2dc"/>
 <text x="794.0" y="50.0" font-size="12" fill="#52514e" text-anchor="middle" style="font-variant-numeric:tabular-nums">0%</text>
 <line x1="794.0" x2="794.0" y1="58" y2="494" stroke="#e3e2dc"/>
-<g class="row"><title>Void-Scarred · ST build: ST best, Cleave -15.4%, AoE -24.8%, Dungeon -12.8%</title>
+<g class="row"><title>Void-Scarred · ST build: ST best, Cleave -15.3%, AoE -24.8%, Dungeon -12.9%</title>
 <rect class="own" x="239.0" y="62" width="142.0" height="34" fill="#2a78d6" fill-opacity="0.14"/>
 <text x="16" y="83.5" font-size="12.5" fill="#0b0b0b"><tspan fill="#266dc3" font-weight="600">Void-Scarred</tspan> · ST build</text>
 <circle cx="362.0" cy="79.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
 <path class="clamped" d="M392.0,79.0 l11,-7 v14 z" fill="#2a78d6"/>
-<text x="411.0" y="83.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-15.4%</text>
+<text x="411.0" y="83.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-15.3%</text>
 <path class="clamped" d="M536.0,79.0 l11,-7 v14 z" fill="#2a78d6"/>
 <text x="555.0" y="83.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-24.8%</text>
 <path class="clamped" d="M680.0,79.0 l11,-7 v14 z" fill="#2a78d6"/>
-<text x="699.0" y="83.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-12.8%</text>
+<text x="699.0" y="83.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-12.9%</text>
 </g>
-<g class="row"><title>Void-Scarred · Cleave build: ST -6.3%, Cleave best, AoE -2.1%, Dungeon -0.3%</title>
+<g class="row"><title>Void-Scarred · Cleave build: ST -6.3%, Cleave best, AoE -2.1%, Dungeon -0.4%</title>
 <rect class="own" x="383.0" y="96" width="142.0" height="34" fill="#2a78d6" fill-opacity="0.14"/>
 <text x="16" y="117.5" font-size="12.5" fill="#0b0b0b"><tspan fill="#266dc3" font-weight="600">Void-Scarred</tspan> · Cleave build</text>
-<circle cx="305.5" cy="113.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-<text x="292.5" y="117.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-6.3%</text>
+<circle cx="305.3" cy="113.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="292.3" y="117.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-6.3%</text>
 <circle cx="506.0" cy="113.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-<circle cx="631.3" cy="113.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-<text x="618.3" y="117.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-2.1%</text>
-<circle cx="791.2" cy="113.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-<text x="778.2" y="117.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-0.3%</text>
+<circle cx="631.0" cy="113.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="618.0" y="117.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-2.1%</text>
+<circle cx="790.7" cy="113.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="777.7" y="117.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-0.4%</text>
 </g>
 <g class="row"><title>Void-Scarred · AoE build: ST -20.4%, Cleave -10.0%, AoE best, Dungeon -5.8%</title>
 <rect class="own" x="527.0" y="130" width="142.0" height="34" fill="#2a78d6" fill-opacity="0.14"/>
 <text x="16" y="151.5" font-size="12.5" fill="#0b0b0b"><tspan fill="#266dc3" font-weight="600">Void-Scarred</tspan> · AoE build</text>
 <path class="clamped" d="M248.0,147.0 l11,-7 v14 z" fill="#2a78d6"/>
 <text x="267.0" y="151.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-20.4%</text>
-<circle cx="415.9" cy="147.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-<text x="428.9" y="151.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-10.0%</text>
+<circle cx="415.8" cy="147.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="428.8" y="151.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-10.0%</text>
 <circle cx="650.0" cy="147.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-<circle cx="742.2" cy="147.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-<text x="729.2" y="151.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-5.8%</text>
+<circle cx="741.7" cy="147.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="728.7" y="151.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-5.8%</text>
 </g>
 <g class="row"><title>Void-Scarred · Dungeon build: ST -3.0%, Cleave -0.7%, AoE -2.5%, Dungeon best</title>
 <rect class="own" x="671.0" y="164" width="142.0" height="34" fill="#2a78d6" fill-opacity="0.14"/>
 <text x="16" y="185.5" font-size="12.5" fill="#0b0b0b"><tspan fill="#266dc3" font-weight="600">Void-Scarred</tspan> · Dungeon build</text>
-<circle cx="334.9" cy="181.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-<text x="321.9" y="185.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-3.0%</text>
-<circle cx="499.3" cy="181.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-<text x="486.3" y="185.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-0.7%</text>
-<circle cx="627.3" cy="181.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
-<text x="614.3" y="185.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-2.5%</text>
+<circle cx="335.0" cy="181.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="322.0" y="185.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-3.0%</text>
+<circle cx="499.6" cy="181.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="486.6" y="185.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-0.7%</text>
+<circle cx="627.8" cy="181.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
+<text x="614.8" y="185.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-2.5%</text>
 <circle cx="794.0" cy="181.0" r="6.5" fill="#2a78d6" stroke="#fcfcfb" stroke-width="2"/>
 </g>
-<g class="row"><title>Annihilator ranged · ST build: ST -8.8%, Cleave -19.6%, AoE -27.9%, Dungeon -13.0%</title>
+<g class="row"><title>Annihilator ranged · ST build: ST -8.8%, Cleave -19.6%, AoE -27.9%, Dungeon -13.1%</title>
 <rect class="own" x="239.0" y="208" width="142.0" height="34" fill="#eb6834" fill-opacity="0.14"/>
 <text x="16" y="229.5" font-size="12.5" fill="#0b0b0b"><tspan fill="#b34f28" font-weight="600">Annihilator ranged</tspan> · ST build</text>
-<circle cx="282.8" cy="225.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
-<text x="295.8" y="229.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-8.8%</text>
+<circle cx="283.0" cy="225.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="296.0" y="229.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-8.8%</text>
 <path class="clamped" d="M392.0,225.0 l11,-7 v14 z" fill="#eb6834"/>
 <text x="411.0" y="229.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-19.6%</text>
 <path class="clamped" d="M536.0,225.0 l11,-7 v14 z" fill="#eb6834"/>
 <text x="555.0" y="229.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-27.9%</text>
 <path class="clamped" d="M680.0,225.0 l11,-7 v14 z" fill="#eb6834"/>
-<text x="699.0" y="229.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-13.0%</text>
+<text x="699.0" y="229.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-13.1%</text>
 </g>
-<g class="row"><title>Annihilator ranged · Cleave build, same build as AoE: ST -12.8%, Cleave -2.9%, AoE -4.2%, Dungeon -1.7%</title>
+<g class="row"><title>Annihilator ranged · Cleave build, same build as AoE: ST -12.8%, Cleave -2.9%, AoE -4.1%, Dungeon -1.7%</title>
 <rect class="own" x="383.0" y="242" width="142.0" height="34" fill="#eb6834" fill-opacity="0.14"/>
 <text x="16" y="256.0" font-size="12.5" fill="#0b0b0b"><tspan fill="#b34f28" font-weight="600">Annihilator ranged</tspan> · Cleave build</text>
 <text x="16.0" y="271.0" font-size="12" fill="#52514e" text-anchor="start">same build as AoE</text>
 <path class="clamped" d="M248.0,259.0 l11,-7 v14 z" fill="#eb6834"/>
 <text x="267.0" y="263.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-12.8%</text>
-<circle cx="479.8" cy="259.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
-<text x="466.8" y="263.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-2.9%</text>
-<circle cx="612.0" cy="259.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
-<text x="599.0" y="263.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-4.2%</text>
-<circle cx="778.8" cy="259.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
-<text x="765.8" y="263.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-1.7%</text>
+<circle cx="479.5" cy="259.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="466.5" y="263.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-2.9%</text>
+<circle cx="612.7" cy="259.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="599.7" y="263.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-4.1%</text>
+<circle cx="778.5" cy="259.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="765.5" y="263.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-1.7%</text>
 </g>
-<g class="row"><title>Annihilator ranged · AoE build, same build as Cleave: ST -12.8%, Cleave -2.9%, AoE -4.2%, Dungeon -1.7%</title>
+<g class="row"><title>Annihilator ranged · AoE build, same build as Cleave: ST -12.8%, Cleave -2.9%, AoE -4.1%, Dungeon -1.7%</title>
 <rect class="own" x="527.0" y="276" width="142.0" height="34" fill="#eb6834" fill-opacity="0.14"/>
 <text x="16" y="290.0" font-size="12.5" fill="#0b0b0b"><tspan fill="#b34f28" font-weight="600">Annihilator ranged</tspan> · AoE build</text>
 <text x="16.0" y="305.0" font-size="12" fill="#52514e" text-anchor="start">same build as Cleave</text>
 <path class="clamped" d="M248.0,293.0 l11,-7 v14 z" fill="#eb6834"/>
 <text x="267.0" y="297.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-12.8%</text>
-<circle cx="479.8" cy="293.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
-<text x="466.8" y="297.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-2.9%</text>
-<circle cx="612.0" cy="293.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
-<text x="599.0" y="297.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-4.2%</text>
-<circle cx="778.8" cy="293.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
-<text x="765.8" y="297.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-1.7%</text>
+<circle cx="479.5" cy="293.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="466.5" y="297.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-2.9%</text>
+<circle cx="612.7" cy="293.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="599.7" y="297.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-4.1%</text>
+<circle cx="778.5" cy="293.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="765.5" y="297.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-1.7%</text>
 </g>
-<g class="row"><title>Annihilator ranged · Dungeon build: ST -13.8%, Cleave -4.5%, AoE -5.9%, Dungeon -0.6%</title>
+<g class="row"><title>Annihilator ranged · Dungeon build: ST -13.7%, Cleave -4.5%, AoE -5.8%, Dungeon -0.7%</title>
 <rect class="own" x="671.0" y="310" width="142.0" height="34" fill="#eb6834" fill-opacity="0.14"/>
 <text x="16" y="331.5" font-size="12.5" fill="#0b0b0b"><tspan fill="#b34f28" font-weight="600">Annihilator ranged</tspan> · Dungeon build</text>
 <path class="clamped" d="M248.0,327.0 l11,-7 v14 z" fill="#eb6834"/>
-<text x="267.0" y="331.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-13.8%</text>
-<circle cx="465.4" cy="327.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
-<text x="452.4" y="331.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-4.5%</text>
-<circle cx="597.3" cy="327.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
-<text x="584.3" y="331.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-5.9%</text>
-<circle cx="788.3" cy="327.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
-<text x="775.3" y="331.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-0.6%</text>
+<text x="267.0" y="331.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-13.7%</text>
+<circle cx="465.5" cy="327.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="452.5" y="331.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-4.5%</text>
+<circle cx="597.7" cy="327.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="584.7" y="331.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-5.8%</text>
+<circle cx="787.9" cy="327.0" r="6.5" fill="#eb6834" stroke="#fcfcfb" stroke-width="2"/>
+<text x="774.9" y="331.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-0.7%</text>
 </g>
-<g class="row"><title>Annihilator + Bite · ST build: ST -9.5%, Cleave -22.7%, AoE -31.3%, Dungeon -15.8%</title>
+<g class="row"><title>Annihilator + Bite · ST build: ST -9.5%, Cleave -22.7%, AoE -31.3%, Dungeon -15.9%</title>
 <rect class="own" x="239.0" y="354" width="142.0" height="34" fill="#1baf7a" fill-opacity="0.14"/>
 <text x="16" y="375.5" font-size="12.5" fill="#0b0b0b"><tspan fill="#137c57" font-weight="600">Annihilator + Bite</tspan> · ST build</text>
-<circle cx="276.2" cy="371.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
-<text x="289.2" y="375.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-9.5%</text>
+<circle cx="276.4" cy="371.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="289.4" y="375.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-9.5%</text>
 <path class="clamped" d="M392.0,371.0 l11,-7 v14 z" fill="#1baf7a"/>
 <text x="411.0" y="375.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-22.7%</text>
 <path class="clamped" d="M536.0,371.0 l11,-7 v14 z" fill="#1baf7a"/>
 <text x="555.0" y="375.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-31.3%</text>
 <path class="clamped" d="M680.0,371.0 l11,-7 v14 z" fill="#1baf7a"/>
-<text x="699.0" y="375.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-15.8%</text>
+<text x="699.0" y="375.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-15.9%</text>
 </g>
 <g class="row"><title>Annihilator + Bite · Cleave build: ST -11.8%, Cleave -7.7%, AoE -10.2%, Dungeon -4.2%</title>
 <rect class="own" x="383.0" y="388" width="142.0" height="34" fill="#1baf7a" fill-opacity="0.14"/>
 <text x="16" y="409.5" font-size="12.5" fill="#0b0b0b"><tspan fill="#137c57" font-weight="600">Annihilator + Bite</tspan> · Cleave build</text>
-<circle cx="255.8" cy="405.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
-<text x="268.8" y="409.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-11.8%</text>
-<circle cx="436.5" cy="405.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
-<text x="449.5" y="409.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-7.7%</text>
-<circle cx="558.3" cy="405.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
-<text x="571.3" y="409.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-10.2%</text>
-<circle cx="756.5" cy="405.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
-<text x="743.5" y="409.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-4.2%</text>
+<circle cx="256.2" cy="405.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="269.2" y="409.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-11.8%</text>
+<circle cx="436.6" cy="405.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="449.6" y="409.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-7.7%</text>
+<circle cx="558.6" cy="405.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="571.6" y="409.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-10.2%</text>
+<circle cx="756.1" cy="405.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="743.1" y="409.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-4.2%</text>
 </g>
-<g class="row"><title>Annihilator + Bite · AoE build: ST -15.8%, Cleave -15.6%, AoE -9.8%, Dungeon -7.0%</title>
+<g class="row"><title>Annihilator + Bite · AoE build: ST -15.8%, Cleave -15.7%, AoE -9.8%, Dungeon -7.1%</title>
 <rect class="own" x="527.0" y="422" width="142.0" height="34" fill="#1baf7a" fill-opacity="0.14"/>
 <text x="16" y="443.5" font-size="12.5" fill="#0b0b0b"><tspan fill="#137c57" font-weight="600">Annihilator + Bite</tspan> · AoE build</text>
 <path class="clamped" d="M248.0,439.0 l11,-7 v14 z" fill="#1baf7a"/>
 <text x="267.0" y="443.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-15.8%</text>
 <path class="clamped" d="M392.0,439.0 l11,-7 v14 z" fill="#1baf7a"/>
-<text x="411.0" y="443.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-15.6%</text>
-<circle cx="561.8" cy="439.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
-<text x="574.8" y="443.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-9.8%</text>
-<circle cx="730.7" cy="439.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
-<text x="743.7" y="443.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-7.0%</text>
+<text x="411.0" y="443.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-15.7%</text>
+<circle cx="561.9" cy="439.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="574.9" y="443.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-9.8%</text>
+<circle cx="730.2" cy="439.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="743.2" y="443.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-7.1%</text>
 </g>
-<g class="row"><title>Annihilator + Bite · Dungeon build: ST -12.8%, Cleave -9.2%, AoE -11.8%, Dungeon -3.1%</title>
+<g class="row"><title>Annihilator + Bite · Dungeon build: ST -12.7%, Cleave -9.2%, AoE -11.8%, Dungeon -3.2%</title>
 <rect class="own" x="671.0" y="456" width="142.0" height="34" fill="#1baf7a" fill-opacity="0.14"/>
 <text x="16" y="477.5" font-size="12.5" fill="#0b0b0b"><tspan fill="#137c57" font-weight="600">Annihilator + Bite</tspan> · Dungeon build</text>
 <path class="clamped" d="M248.0,473.0 l11,-7 v14 z" fill="#1baf7a"/>
-<text x="267.0" y="477.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-12.8%</text>
-<circle cx="423.0" cy="473.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
-<text x="436.0" y="477.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-9.2%</text>
-<circle cx="543.7" cy="473.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
-<text x="556.7" y="477.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-11.8%</text>
-<circle cx="765.8" cy="473.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
-<text x="752.8" y="477.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-3.1%</text>
+<text x="267.0" y="477.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-12.7%</text>
+<circle cx="423.3" cy="473.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="436.3" y="477.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-9.2%</text>
+<circle cx="543.8" cy="473.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="556.8" y="477.5" font-size="12" fill="#52514e" text-anchor="start" style="font-variant-numeric:tabular-nums">-11.8%</text>
+<circle cx="764.9" cy="473.0" r="6.5" fill="#1baf7a" stroke="#fcfcfb" stroke-width="2"/>
+<text x="751.9" y="477.5" font-size="12" fill="#52514e" text-anchor="end" style="font-variant-numeric:tabular-nums">-3.2%</text>
 </g>
 </svg>
