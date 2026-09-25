@@ -125,7 +125,7 @@ actions.voidscarred_meta+=/predators_wake,if=buff.collapsing_star.up
 actions.voidscarred_meta+=/collapsing_star
 actions.voidscarred_meta+=/devour,if=buff.soulburst.up
 actions.voidscarred_meta+=/reapers_toll,if=soul_fragments<=8
-actions.voidscarred_meta+=/pierce_the_veil,if=!buff.hungering_slash.up
+actions.voidscarred_meta+=/pierce_the_veil
 actions.voidscarred_meta+=/predators_wake,if=!buff.hungering_slash.up
 actions.voidscarred_meta+=/call_action_list,name=reaps,if=action.reap.souls_consumed>=4+4*(active_enemies>1&buff.eradicate.up)&!buff.soulburst.up
 actions.voidscarred_meta+=/void_ray
