@@ -98,7 +98,7 @@ actions.annihilator_meta+=/call_action_list,name=reaps,if=!talent.eradicate&buff
 actions.annihilator_meta+=/void_ray,if=active_enemies>1|talent.eradicate|fury>=100|fury<55
 actions.annihilator_meta+=/call_action_list,name=reaps,if=variable.voidfall_dump
 actions.annihilator_meta+=/call_action_list,name=reaps,if=buff.collapsing_star_stacking.stack+action.reap.souls_consumed>=30&action.reap.souls_consumed>=4&fight_remains<45
-actions.annihilator_meta+=/soul_immolation,if=active_dot.soul_immolation=0&fury<void_metamorphosis_base_drain_ps&cooldown.reap.remains
+actions.annihilator_meta+=/soul_immolation,if=active_dot.soul_immolation=0&fury<void_metamorphosis_base_drain_ps&(cooldown.reap.remains|active_enemies=1)
 actions.annihilator_meta+=/devour
 
 actions.annihilator_out=pick_up_fragment,mode=nearest,type=all,use_off_gcd=1,line_cd=0.6,if=!buff.void_metamorphosis_stack.at_max_stacks&buff.void_metamorphosis_stack.stack>=buff.void_metamorphosis_stack.max_stack-2

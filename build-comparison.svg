@@ -2,68 +2,68 @@
 <title id="title">single target against dungeon +20</title>
 <desc id="desc">Each of 11 builds as a dot at its single target and dungeon +20 damage. The tables in the README carry every number.</desc>
 <rect width="830" height="560" rx="8" fill="#fcfcfb" stroke="#e3e2dc"/>
-<line x1="121.9" x2="121.9" y1="22" y2="496" stroke="#e3e2dc"/>
-<text x="121.9" y="516.0" font-size="12" fill="#52514e" text-anchor="middle">220k</text>
-<line x1="338.3" x2="338.3" y1="22" y2="496" stroke="#e3e2dc"/>
-<text x="338.3" y="516.0" font-size="12" fill="#52514e" text-anchor="middle">240k</text>
-<line x1="554.8" x2="554.8" y1="22" y2="496" stroke="#e3e2dc"/>
-<text x="554.8" y="516.0" font-size="12" fill="#52514e" text-anchor="middle">260k</text>
-<line x1="771.2" x2="771.2" y1="22" y2="496" stroke="#e3e2dc"/>
-<text x="771.2" y="516.0" font-size="12" fill="#52514e" text-anchor="middle">280k</text>
-<line x1="80" x2="802" y1="424.0" y2="424.0" stroke="#e3e2dc"/>
-<text x="70.0" y="428.0" font-size="12" fill="#52514e" text-anchor="end">520k</text>
-<line x1="80" x2="802" y1="342.9" y2="342.9" stroke="#e3e2dc"/>
-<text x="70.0" y="346.9" font-size="12" fill="#52514e" text-anchor="end">540k</text>
-<line x1="80" x2="802" y1="261.9" y2="261.9" stroke="#e3e2dc"/>
-<text x="70.0" y="265.9" font-size="12" fill="#52514e" text-anchor="end">560k</text>
-<line x1="80" x2="802" y1="180.8" y2="180.8" stroke="#e3e2dc"/>
-<text x="70.0" y="184.8" font-size="12" fill="#52514e" text-anchor="end">580k</text>
-<line x1="80" x2="802" y1="99.7" y2="99.7" stroke="#e3e2dc"/>
-<text x="70.0" y="103.7" font-size="12" fill="#52514e" text-anchor="end">600k</text>
+<line x1="122.2" x2="122.2" y1="22" y2="496" stroke="#e3e2dc"/>
+<text x="122.2" y="516.0" font-size="12" fill="#52514e" text-anchor="middle">220k</text>
+<line x1="338.2" x2="338.2" y1="22" y2="496" stroke="#e3e2dc"/>
+<text x="338.2" y="516.0" font-size="12" fill="#52514e" text-anchor="middle">240k</text>
+<line x1="554.2" x2="554.2" y1="22" y2="496" stroke="#e3e2dc"/>
+<text x="554.2" y="516.0" font-size="12" fill="#52514e" text-anchor="middle">260k</text>
+<line x1="770.2" x2="770.2" y1="22" y2="496" stroke="#e3e2dc"/>
+<text x="770.2" y="516.0" font-size="12" fill="#52514e" text-anchor="middle">280k</text>
+<line x1="80" x2="802" y1="424.7" y2="424.7" stroke="#e3e2dc"/>
+<text x="70.0" y="428.7" font-size="12" fill="#52514e" text-anchor="end">520k</text>
+<line x1="80" x2="802" y1="343.6" y2="343.6" stroke="#e3e2dc"/>
+<text x="70.0" y="347.6" font-size="12" fill="#52514e" text-anchor="end">540k</text>
+<line x1="80" x2="802" y1="262.4" y2="262.4" stroke="#e3e2dc"/>
+<text x="70.0" y="266.4" font-size="12" fill="#52514e" text-anchor="end">560k</text>
+<line x1="80" x2="802" y1="181.2" y2="181.2" stroke="#e3e2dc"/>
+<text x="70.0" y="185.2" font-size="12" fill="#52514e" text-anchor="end">580k</text>
+<line x1="80" x2="802" y1="100.0" y2="100.0" stroke="#e3e2dc"/>
+<text x="70.0" y="104.0" font-size="12" fill="#52514e" text-anchor="end">600k</text>
 <text x="441.0" y="542.0" font-size="14" fill="#52514e" text-anchor="middle">single target</text>
 <text x="22.0" y="259.0" font-size="14" fill="#52514e" text-anchor="middle" transform="rotate(-90 22 259.0)">dungeon +20</text>
-<g class="build"><title>vs-st: single target 278,247, dungeon +20 533,997</title>
-<circle cx="752.2" cy="367.3" r="7" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
-<text x="741.2" y="372.3" font-size="13" fill="#266dc3" text-anchor="end" font-weight="600">vs-st</text>
+<g class="build"><title>vs-st: single target 278,332, dungeon +20 534,049</title>
+<circle cx="752.2" cy="367.7" r="7" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
+<text x="741.2" y="372.7" font-size="13" fill="#266dc3" text-anchor="end" font-weight="600">vs-st</text>
 </g>
-<g class="build"><title>vs-cleave: single target 261,130, dungeon +20 609,009</title>
-<circle cx="567.0" cy="63.2" r="7" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
-<text x="578.0" y="68.2" font-size="13" fill="#266dc3" text-anchor="start" font-weight="600">vs-cleave</text>
+<g class="build"><title>vs-cleave: single target 261,047, dungeon +20 609,065</title>
+<circle cx="565.5" cy="63.2" r="7" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
+<text x="576.5" y="68.2" font-size="13" fill="#266dc3" text-anchor="start" font-weight="600">vs-cleave</text>
 </g>
-<g class="build"><title>vs-aoe: single target 220,727, dungeon +20 575,588</title>
-<circle cx="129.8" cy="198.7" r="7" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
-<text x="140.8" y="203.7" font-size="13" fill="#266dc3" text-anchor="start" font-weight="600">vs-aoe</text>
+<g class="build"><title>vs-aoe: single target 220,700, dungeon +20 575,366</title>
+<circle cx="129.8" cy="200.0" r="7" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
+<text x="140.8" y="205.0" font-size="13" fill="#266dc3" text-anchor="start" font-weight="600">vs-aoe</text>
 </g>
-<g class="build"><title>vs-dung: single target 270,057, dungeon +20 611,107</title>
-<circle cx="663.6" cy="54.7" r="7" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
-<text x="674.6" y="59.7" font-size="13" fill="#266dc3" text-anchor="start" font-weight="600">vs-dung</text>
+<g class="build"><title>vs-dung: single target 270,049, dungeon +20 611,171</title>
+<circle cx="662.7" cy="54.7" r="7" fill="#2a78d6" stroke="#fcfcfb" stroke-width="1.5"/>
+<text x="673.7" y="59.7" font-size="13" fill="#266dc3" text-anchor="start" font-weight="600">vs-dung</text>
 </g>
-<g class="build"><title>anni-st: single target 255,159, dungeon +20 527,028</title>
-<circle cx="502.4" cy="395.5" r="7" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
-<text x="513.4" y="400.5" font-size="13" fill="#b34f28" text-anchor="start" font-weight="600">anni-st</text>
+<g class="build"><title>anni-st: single target 255,627, dungeon +20 527,259</title>
+<circle cx="507.0" cy="395.3" r="7" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<text x="518.0" y="400.3" font-size="13" fill="#b34f28" text-anchor="start" font-weight="600">anni-st</text>
 </g>
-<g class="build"><title>anni-cleave: single target 244,154, dungeon +20 597,240</title>
-<circle cx="383.3" cy="110.9" r="7" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
-<text x="394.3" y="115.9" font-size="13" fill="#b34f28" text-anchor="start" font-weight="600">anni-cleave</text>
+<g class="build"><title>anni-cleave: single target 244,167, dungeon +20 597,394</title>
+<circle cx="383.2" cy="110.6" r="7" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<text x="394.2" y="115.6" font-size="13" fill="#b34f28" text-anchor="start" font-weight="600">anni-cleave</text>
 </g>
-<g class="build"><title>anni-dung: single target 241,357, dungeon +20 604,939</title>
-<circle cx="353.0" cy="79.7" r="7" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
-<text x="364.0" y="84.7" font-size="13" fill="#b34f28" text-anchor="start" font-weight="600">anni-dung</text>
+<g class="build"><title>anni-dung: single target 241,558, dungeon +20 604,990</title>
+<circle cx="355.0" cy="79.8" r="7" fill="#eb6834" stroke="#fcfcfb" stroke-width="1.5"/>
+<text x="366.0" y="84.8" font-size="13" fill="#b34f28" text-anchor="start" font-weight="600">anni-dung</text>
 </g>
-<g class="build"><title>anni-bite-st: single target 253,509, dungeon +20 510,308</title>
-<circle cx="484.5" cy="463.3" r="7" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
-<text x="495.5" y="468.3" font-size="13" fill="#137c57" text-anchor="start" font-weight="600">anni-bite-st</text>
+<g class="build"><title>anni-bite-st: single target 253,944, dungeon +20 510,497</title>
+<circle cx="488.8" cy="463.3" r="7" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
+<text x="499.8" y="468.3" font-size="13" fill="#137c57" text-anchor="start" font-weight="600">anni-bite-st</text>
 </g>
-<g class="build"><title>anni-bite-cleave: single target 247,033, dungeon +20 582,255</title>
-<circle cx="414.4" cy="171.6" r="7" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
-<text x="425.4" y="176.6" font-size="13" fill="#137c57" text-anchor="start" font-weight="600">anni-bite-cleave</text>
+<g class="build"><title>anni-bite-cleave: single target 246,950, dungeon +20 582,351</title>
+<circle cx="413.3" cy="171.7" r="7" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
+<text x="424.3" y="176.7" font-size="13" fill="#137c57" text-anchor="start" font-weight="600">anni-bite-cleave</text>
 </g>
-<g class="build"><title>anni-bite-aoe: single target 237,159, dungeon +20 564,513</title>
-<circle cx="307.6" cy="243.6" r="7" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
-<text x="318.6" y="248.6" font-size="13" fill="#137c57" text-anchor="start" font-weight="600">anni-bite-aoe</text>
+<g class="build"><title>anni-bite-aoe: single target 236,871, dungeon +20 564,589</title>
+<circle cx="304.4" cy="243.8" r="7" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
+<text x="315.4" y="248.8" font-size="13" fill="#137c57" text-anchor="start" font-weight="600">anni-bite-aoe</text>
 </g>
-<g class="build"><title>anni-bite-dung: single target 244,466, dungeon +20 589,134</title>
-<circle cx="386.7" cy="143.8" r="7" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
-<text x="397.7" y="148.8" font-size="13" fill="#137c57" text-anchor="start" font-weight="600">anni-bite-dung</text>
+<g class="build"><title>anni-bite-dung: single target 244,330, dungeon +20 589,466</title>
+<circle cx="385.0" cy="142.8" r="7" fill="#1baf7a" stroke="#fcfcfb" stroke-width="1.5"/>
+<text x="396.0" y="147.8" font-size="13" fill="#137c57" text-anchor="start" font-weight="600">anni-bite-dung</text>
 </g>
 </svg>
