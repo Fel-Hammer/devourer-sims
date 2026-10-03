@@ -9,55 +9,55 @@ every group report sims every build, so each build is measured on every scenario
 Each dot is a build, named for the fight it was made for. Further right is more single-target
 damage, higher is more damage in the +20 dungeon. The tables below have every build on every fight.
 
-## ST: 1 target, 300s, lust ([report](https://mimiron.raidbots.com/simbot/report/nf8hbiG61ZXdorQikxtd5v))
+## ST: 1 target, 300s, lust ([report](https://mimiron.raidbots.com/simbot/report/3BsuyHyagC9GNyUzd4ADPr))
 
 | Build | DPS | Build report |
 |---|---|---|
-| vs-st | 278,332 | [report](https://mimiron.raidbots.com/simbot/report/wh36cNYB842eNUVQ5b8NEt) |
-| vs-dung | 270,049 | [report](https://mimiron.raidbots.com/simbot/report/9hDwRYghE5te3t9sxEjQZf) |
-| vs-cleave | 261,047 | [report](https://mimiron.raidbots.com/simbot/report/ekHoLshVbwmChwkwoiLW16) |
-| anni-st | 255,627 | [report](https://mimiron.raidbots.com/simbot/report/fu8BPHiVbfkudgtCeVu4yn) |
-| anni-bite-st | 253,944 | [report](https://mimiron.raidbots.com/simbot/report/nMMHC6ptd7b8c9eDfkt4tb) |
-| anni-bite-cleave | 246,950 | [report](https://mimiron.raidbots.com/simbot/report/b6rH7sG2ouG8UBWaZG3FxR) |
-| anni-bite-dung | 244,330 | [report](https://mimiron.raidbots.com/simbot/report/2SHKvhfbhrkeGR65ymmh2G) |
-| anni-cleave | 244,167 | [report](https://mimiron.raidbots.com/simbot/report/oBTwkDBgWskuDhy8Nk6TKh) |
-| anni-dung | 241,558 | [report](https://mimiron.raidbots.com/simbot/report/5SjDLcpkL2BcLq4ehNYE1C) |
-| anni-bite-aoe | 236,871 | [report](https://mimiron.raidbots.com/simbot/report/5tRvL8YEAEqG3LfAwTpmsu) |
-| vs-aoe | 220,700 | [report](https://mimiron.raidbots.com/simbot/report/oiNoaaQhXziXdggxHd81Na) |
+| vs-st | 278,258 | [report](https://mimiron.raidbots.com/simbot/report/p255SqYk5THaPWGqj9gZLf) |
+| vs-dung | 270,063 | [report](https://mimiron.raidbots.com/simbot/report/qKjQLLQCpcmiZ7EiNGvQeV) |
+| vs-cleave | 261,158 | [report](https://mimiron.raidbots.com/simbot/report/xs1pNaEVyRqaR8UMQYjHXW) |
+| anni-st | 255,650 | [report](https://mimiron.raidbots.com/simbot/report/v74m8s9r3wbx3cBTuRs2FB) |
+| anni-bite-st | 253,949 | [report](https://mimiron.raidbots.com/simbot/report/tSKFjsoxjWm4xDLtKLy3HD) |
+| anni-bite-cleave | 247,000 | [report](https://mimiron.raidbots.com/simbot/report/hLDwBXjqJso6XpuAj96mFQ) |
+| anni-bite-dung | 244,360 | [report](https://mimiron.raidbots.com/simbot/report/sSqNRwkatXzdhfgoepkcGW) |
+| anni-cleave | 244,124 | [report](https://mimiron.raidbots.com/simbot/report/be2fcscPxuGXoLBei2Psq1) |
+| anni-dung | 241,425 | [report](https://mimiron.raidbots.com/simbot/report/8BZfE3GTkrdR6AANY1A5U6) |
+| anni-bite-aoe | 237,123 | [report](https://mimiron.raidbots.com/simbot/report/whZV4MjAs9d5PNUQQAhAeD) |
+| vs-aoe | 220,676 | [report](https://mimiron.raidbots.com/simbot/report/8k9Xe22fPurFsKZszVFqfN) |
 
-## Cleave: 3 targets, 300s, lust ([report](https://mimiron.raidbots.com/simbot/report/9KnTpANA76WeewB3maZunk))
-
-| Build | DPS | Build report |
-|---|---|---|
-| vs-cleave | 540,381 | [report](https://mimiron.raidbots.com/simbot/report/ekHoLshVbwmChwkwoiLW16) |
-| vs-dung | 536,689 | [report](https://mimiron.raidbots.com/simbot/report/9hDwRYghE5te3t9sxEjQZf) |
-| anni-cleave | 524,265 | [report](https://mimiron.raidbots.com/simbot/report/oBTwkDBgWskuDhy8Nk6TKh) |
-| anni-dung | 515,903 | [report](https://mimiron.raidbots.com/simbot/report/5SjDLcpkL2BcLq4ehNYE1C) |
-| anni-bite-cleave | 497,299 | [report](https://mimiron.raidbots.com/simbot/report/b6rH7sG2ouG8UBWaZG3FxR) |
-| anni-bite-dung | 489,418 | [report](https://mimiron.raidbots.com/simbot/report/2SHKvhfbhrkeGR65ymmh2G) |
-| vs-aoe | 483,712 | [report](https://mimiron.raidbots.com/simbot/report/oiNoaaQhXziXdggxHd81Na) |
-| vs-st | 457,969 | [report](https://mimiron.raidbots.com/simbot/report/wh36cNYB842eNUVQ5b8NEt) |
-| anni-bite-aoe | 454,053 | [report](https://mimiron.raidbots.com/simbot/report/5tRvL8YEAEqG3LfAwTpmsu) |
-| anni-st | 433,509 | [report](https://mimiron.raidbots.com/simbot/report/fu8BPHiVbfkudgtCeVu4yn) |
-| anni-bite-st | 417,890 | [report](https://mimiron.raidbots.com/simbot/report/nMMHC6ptd7b8c9eDfkt4tb) |
-
-## AoE: 5 targets, 300s, lust ([report](https://mimiron.raidbots.com/simbot/report/6iSjyYDjxtqKxLPW86obg4))
+## Cleave: 3 targets, 300s, lust ([report](https://mimiron.raidbots.com/simbot/report/ezArJTnRGzQYXzPp2bfwR1))
 
 | Build | DPS | Build report |
 |---|---|---|
-| vs-aoe | 756,703 | [report](https://mimiron.raidbots.com/simbot/report/oiNoaaQhXziXdggxHd81Na) |
-| vs-cleave | 737,783 | [report](https://mimiron.raidbots.com/simbot/report/ekHoLshVbwmChwkwoiLW16) |
-| vs-dung | 735,936 | [report](https://mimiron.raidbots.com/simbot/report/9hDwRYghE5te3t9sxEjQZf) |
-| anni-cleave | 722,027 | [report](https://mimiron.raidbots.com/simbot/report/oBTwkDBgWskuDhy8Nk6TKh) |
-| anni-dung | 709,626 | [report](https://mimiron.raidbots.com/simbot/report/5SjDLcpkL2BcLq4ehNYE1C) |
-| anni-bite-aoe | 677,305 | [report](https://mimiron.raidbots.com/simbot/report/5tRvL8YEAEqG3LfAwTpmsu) |
-| anni-bite-cleave | 676,121 | [report](https://mimiron.raidbots.com/simbot/report/b6rH7sG2ouG8UBWaZG3FxR) |
-| anni-bite-dung | 664,337 | [report](https://mimiron.raidbots.com/simbot/report/2SHKvhfbhrkeGR65ymmh2G) |
-| vs-st | 570,356 | [report](https://mimiron.raidbots.com/simbot/report/wh36cNYB842eNUVQ5b8NEt) |
-| anni-st | 543,072 | [report](https://mimiron.raidbots.com/simbot/report/fu8BPHiVbfkudgtCeVu4yn) |
-| anni-bite-st | 518,616 | [report](https://mimiron.raidbots.com/simbot/report/nMMHC6ptd7b8c9eDfkt4tb) |
+| vs-cleave | 540,308 | [report](https://mimiron.raidbots.com/simbot/report/xs1pNaEVyRqaR8UMQYjHXW) |
+| vs-dung | 536,678 | [report](https://mimiron.raidbots.com/simbot/report/qKjQLLQCpcmiZ7EiNGvQeV) |
+| anni-cleave | 524,263 | [report](https://mimiron.raidbots.com/simbot/report/be2fcscPxuGXoLBei2Psq1) |
+| anni-dung | 516,213 | [report](https://mimiron.raidbots.com/simbot/report/8BZfE3GTkrdR6AANY1A5U6) |
+| anni-bite-cleave | 497,075 | [report](https://mimiron.raidbots.com/simbot/report/hLDwBXjqJso6XpuAj96mFQ) |
+| anni-bite-dung | 489,171 | [report](https://mimiron.raidbots.com/simbot/report/sSqNRwkatXzdhfgoepkcGW) |
+| vs-aoe | 483,765 | [report](https://mimiron.raidbots.com/simbot/report/8k9Xe22fPurFsKZszVFqfN) |
+| vs-st | 457,854 | [report](https://mimiron.raidbots.com/simbot/report/p255SqYk5THaPWGqj9gZLf) |
+| anni-bite-aoe | 454,296 | [report](https://mimiron.raidbots.com/simbot/report/whZV4MjAs9d5PNUQQAhAeD) |
+| anni-st | 433,374 | [report](https://mimiron.raidbots.com/simbot/report/v74m8s9r3wbx3cBTuRs2FB) |
+| anni-bite-st | 417,843 | [report](https://mimiron.raidbots.com/simbot/report/tSKFjsoxjWm4xDLtKLy3HD) |
 
-## Dungeon: Temple of Sethraliss route, +20 keystone ([report](https://mimiron.raidbots.com/simbot/report/cF2tHcJf7r2VrLNew9qGkn))
+## AoE: 5 targets, 300s, lust ([report](https://mimiron.raidbots.com/simbot/report/hG68CCAz15EHckxpdYwQAH))
+
+| Build | DPS | Build report |
+|---|---|---|
+| vs-aoe | 756,639 | [report](https://mimiron.raidbots.com/simbot/report/8k9Xe22fPurFsKZszVFqfN) |
+| vs-cleave | 737,599 | [report](https://mimiron.raidbots.com/simbot/report/xs1pNaEVyRqaR8UMQYjHXW) |
+| vs-dung | 736,188 | [report](https://mimiron.raidbots.com/simbot/report/qKjQLLQCpcmiZ7EiNGvQeV) |
+| anni-cleave | 722,149 | [report](https://mimiron.raidbots.com/simbot/report/be2fcscPxuGXoLBei2Psq1) |
+| anni-dung | 709,402 | [report](https://mimiron.raidbots.com/simbot/report/8BZfE3GTkrdR6AANY1A5U6) |
+| anni-bite-aoe | 677,353 | [report](https://mimiron.raidbots.com/simbot/report/whZV4MjAs9d5PNUQQAhAeD) |
+| anni-bite-cleave | 676,234 | [report](https://mimiron.raidbots.com/simbot/report/hLDwBXjqJso6XpuAj96mFQ) |
+| anni-bite-dung | 664,649 | [report](https://mimiron.raidbots.com/simbot/report/sSqNRwkatXzdhfgoepkcGW) |
+| vs-st | 570,518 | [report](https://mimiron.raidbots.com/simbot/report/p255SqYk5THaPWGqj9gZLf) |
+| anni-st | 543,297 | [report](https://mimiron.raidbots.com/simbot/report/v74m8s9r3wbx3cBTuRs2FB) |
+| anni-bite-st | 518,466 | [report](https://mimiron.raidbots.com/simbot/report/tSKFjsoxjWm4xDLtKLy3HD) |
+
+## Dungeon: Temple of Sethraliss route, +20 keystone ([report](https://mimiron.raidbots.com/simbot/report/oae7Zouft6BdD9Hp7xWJeF))
 
 `temple-of-sethraliss-route.simc` walks a Temple of Sethraliss M+ route end to end. The pulls,
 the chaining and the mob health all come off 12.1 PTR logs, scaled down to one actor, with health
@@ -67,17 +67,17 @@ at a +20 keystone. Run it with:
 
 | Build | DPS | Build report |
 |---|---|---|
-| vs-dung | 611,171 | [report](https://mimiron.raidbots.com/simbot/report/9hDwRYghE5te3t9sxEjQZf) |
-| vs-cleave | 609,065 | [report](https://mimiron.raidbots.com/simbot/report/ekHoLshVbwmChwkwoiLW16) |
-| anni-dung | 604,990 | [report](https://mimiron.raidbots.com/simbot/report/5SjDLcpkL2BcLq4ehNYE1C) |
-| anni-cleave | 597,394 | [report](https://mimiron.raidbots.com/simbot/report/oBTwkDBgWskuDhy8Nk6TKh) |
-| anni-bite-dung | 589,466 | [report](https://mimiron.raidbots.com/simbot/report/2SHKvhfbhrkeGR65ymmh2G) |
-| anni-bite-cleave | 582,351 | [report](https://mimiron.raidbots.com/simbot/report/b6rH7sG2ouG8UBWaZG3FxR) |
-| vs-aoe | 575,366 | [report](https://mimiron.raidbots.com/simbot/report/oiNoaaQhXziXdggxHd81Na) |
-| anni-bite-aoe | 564,589 | [report](https://mimiron.raidbots.com/simbot/report/5tRvL8YEAEqG3LfAwTpmsu) |
-| vs-st | 534,049 | [report](https://mimiron.raidbots.com/simbot/report/wh36cNYB842eNUVQ5b8NEt) |
-| anni-st | 527,259 | [report](https://mimiron.raidbots.com/simbot/report/fu8BPHiVbfkudgtCeVu4yn) |
-| anni-bite-st | 510,497 | [report](https://mimiron.raidbots.com/simbot/report/nMMHC6ptd7b8c9eDfkt4tb) |
+| vs-dung | 611,126 | [report](https://mimiron.raidbots.com/simbot/report/qKjQLLQCpcmiZ7EiNGvQeV) |
+| vs-cleave | 609,281 | [report](https://mimiron.raidbots.com/simbot/report/xs1pNaEVyRqaR8UMQYjHXW) |
+| anni-dung | 605,153 | [report](https://mimiron.raidbots.com/simbot/report/8BZfE3GTkrdR6AANY1A5U6) |
+| anni-cleave | 597,549 | [report](https://mimiron.raidbots.com/simbot/report/be2fcscPxuGXoLBei2Psq1) |
+| anni-bite-dung | 589,342 | [report](https://mimiron.raidbots.com/simbot/report/sSqNRwkatXzdhfgoepkcGW) |
+| anni-bite-cleave | 582,336 | [report](https://mimiron.raidbots.com/simbot/report/hLDwBXjqJso6XpuAj96mFQ) |
+| vs-aoe | 575,434 | [report](https://mimiron.raidbots.com/simbot/report/8k9Xe22fPurFsKZszVFqfN) |
+| anni-bite-aoe | 564,522 | [report](https://mimiron.raidbots.com/simbot/report/whZV4MjAs9d5PNUQQAhAeD) |
+| vs-st | 534,029 | [report](https://mimiron.raidbots.com/simbot/report/p255SqYk5THaPWGqj9gZLf) |
+| anni-st | 527,202 | [report](https://mimiron.raidbots.com/simbot/report/v74m8s9r3wbx3cBTuRs2FB) |
+| anni-bite-st | 510,395 | [report](https://mimiron.raidbots.com/simbot/report/tSKFjsoxjWm4xDLtKLy3HD) |
 
 ## Talent strings
 
@@ -85,17 +85,17 @@ Each row links a report for that build on its own, so you can check its gear and
 
 | Build | Talent string | Report |
 |---|---|---|
-| vs-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMzMwMAAAAAAALzYMYGAAAAAAAAmxMMmZmZYmZYmlZGjNttAgAGAjZmZbmZa2mZbmhxMGA` | [report](https://mimiron.raidbots.com/simbot/report/wh36cNYB842eNUVQ5b8NEt) |
-| vs-cleave | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMzMwMAAAAAAALzYMYGAAAAAAAAmxMMmZmZGzMDzsMDjNtsAgAGAjZmZZmZa2mZbmZwMGA` | [report](https://mimiron.raidbots.com/simbot/report/ekHoLshVbwmChwkwoiLW16) |
-| vs-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMzMwMAAAAAAALzYMYGAAAAAAAAmxMMzMzMzYmBzsMzYsplFAEwAMMzMLzMTz2MbGGGzA` | [report](https://mimiron.raidbots.com/simbot/report/oiNoaaQhXziXdggxHd81Na) |
-| vs-dung | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMzMwMAAAAAAALzYMYGAAAAAAAAmxMMmZmZGzMDzsMzYsplFAEwAYMzMLzMTz2MbmZMmxA` | [report](https://mimiron.raidbots.com/simbot/report/9hDwRYghE5te3t9sxEjQZf) |
-| anni-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZGzsYGjFtswMzMzWbzMzAYmZAIwDMGMMA` | [report](https://mimiron.raidbots.com/simbot/report/fu8BPHiVbfkudgtCeVu4yn) |
-| anni-cleave | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMDzsYGjFZhZmZmt2mZmBwYGAC8AjZYMD` | [report](https://mimiron.raidbots.com/simbot/report/oBTwkDBgWskuDhy8Nk6TKh) |
-| anni-dung | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMDzsYGjFZhZmZmtWmZmBwYGAC8AjZYMD` | [report](https://mimiron.raidbots.com/simbot/report/5SjDLcpkL2BcLq4ehNYE1C) |
-| anni-bite-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMmZmZMzMzYmFzYsolFmZmZ2abmZGAzMDABmZgZMA` | [report](https://mimiron.raidbots.com/simbot/report/nMMHC6ptd7b8c9eDfkt4tb) |
-| anni-bite-cleave | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMPwMzMzMzMDzsYGjFZhZmZmt2mZmBwYGACMzMYGD` | [report](https://mimiron.raidbots.com/simbot/report/b6rH7sG2ouG8UBWaZG3FxR) |
-| anni-bite-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMYmFzYsolFmZmZ2abmZGAjZAIwMDMjB` | [report](https://mimiron.raidbots.com/simbot/report/5tRvL8YEAEqG3LfAwTpmsu) |
-| anni-bite-dung | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMPwMzMzMzMDzsYGjFZhZmZmtWmZmBwYGACMzMYGD` | [report](https://mimiron.raidbots.com/simbot/report/2SHKvhfbhrkeGR65ymmh2G) |
+| vs-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMzMwMAAAAAAALzYMYGAAAAAAAAmxMMmZmZYmZYmlZGjNttAgAGAjZmZbmZa2mZbmhxMGA` | [report](https://mimiron.raidbots.com/simbot/report/p255SqYk5THaPWGqj9gZLf) |
+| vs-cleave | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMzMwMAAAAAAALzYMYGAAAAAAAAmxMMmZmZGzMDzsMDjNtsAgAGAjZmZZmZa2mZbmZwMGA` | [report](https://mimiron.raidbots.com/simbot/report/xs1pNaEVyRqaR8UMQYjHXW) |
+| vs-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMzMwMAAAAAAALzYMYGAAAAAAAAmxMMzMzMzYmBzsMzYsplFAEwAMMzMLzMTz2MbGGGzA` | [report](https://mimiron.raidbots.com/simbot/report/8k9Xe22fPurFsKZszVFqfN) |
+| vs-dung | `CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMzMwMAAAAAAALzYMYGAAAAAAAAmxMMmZmZGzMDzsMzYsplFAEwAYMzMLzMTz2MbmZMmxA` | [report](https://mimiron.raidbots.com/simbot/report/qKjQLLQCpcmiZ7EiNGvQeV) |
+| anni-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMjZmZGzsYGjFtswMzMzWbzMzAYmZAIwDMGMMA` | [report](https://mimiron.raidbots.com/simbot/report/v74m8s9r3wbx3cBTuRs2FB) |
+| anni-cleave | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMDzsYGjFZhZmZmt2mZmBwYGAC8AjZYMD` | [report](https://mimiron.raidbots.com/simbot/report/be2fcscPxuGXoLBei2Psq1) |
+| anni-dung | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMDzsYGjFZhZmZmtWmZmBwYGAC8AjZYMD` | [report](https://mimiron.raidbots.com/simbot/report/8BZfE3GTkrdR6AANY1A5U6) |
+| anni-bite-st | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMmZmZMzMzYmFzYsolFmZmZ2abmZGAzMDABmZgZMA` | [report](https://mimiron.raidbots.com/simbot/report/tSKFjsoxjWm4xDLtKLy3HD) |
+| anni-bite-cleave | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMPwMzMzMzMDzsYGjFZhZmZmt2mZmBwYGACMzMYGD` | [report](https://mimiron.raidbots.com/simbot/report/hLDwBXjqJso6XpuAj96mFQ) |
+| anni-bite-aoe | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMzMzMzMzMYmFzYsolFmZmZ2abmZGAjZAIwMDMjB` | [report](https://mimiron.raidbots.com/simbot/report/whZV4MjAs9d5PNUQQAhAeD) |
+| anni-bite-dung | `CgcBAAAAAAAAAAAAAAAAAAAAAAA2MmZmZmZmBzMAAAAAAALzYAzAAAAAAAAwMGMPwMzMzMzMDzsYGjFZhZmZmtWmZmBwYGACMzMYGD` | [report](https://mimiron.raidbots.com/simbot/report/sSqNRwkatXzdhfgoepkcGW) |
 
 ## Contributing
 
